@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "version-note-lint"
+version = "0.1.0"
+description = "Check the version argument of Sphinx versionadded/versionchanged/deprecated notes (missing, body-as-version, non-version, later than the branch)."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.9"
+authors = [{ name = "MV2, Munim, Inc.", email = "mv2@munimtech.com" }]
+keywords = ["sphinx", "documentation", "lint", "versionadded", "restructuredtext"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Documentation :: Sphinx",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.urls]
+Source = "https://github.com/munimtechnologies/version-note-lint"
+
+[project.scripts]
+version-note-lint = "version_note_lint:main"
+
+[tool.setuptools]
+py-modules = ["version_note_lint"]

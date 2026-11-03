@@ -1,0 +1,6 @@
+- id: version-note-lint
+  name: version-note-lint
+  description: Check the version argument of Sphinx version notes.
+  entry: version-note-lint
+  language: python
+  types_or: [rst, python, markdown, text]

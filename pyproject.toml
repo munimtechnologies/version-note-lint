@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "version-note-lint"
-version = "0.1.0"
-description = "Check the version argument of Sphinx versionadded/versionchanged/deprecated notes (missing, body-as-version, non-version, later than the branch)."
+version = "0.1.1"
+description = "Check Sphinx versionadded/versionchanged/deprecated notes: silently dropped markers, missing or non-version arguments, versions later than the branch."
 readme = "README.md"
 license = "Apache-2.0"
 requires-python = ">=3.9"

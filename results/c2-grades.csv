@@ -1,0 +1,34 @@
+order,project,path,line,arg,cls_v010,grade,tier,reader_sees,checked
+1,numpy/numpy,doc/source/reference/c-api/array.rst,4344,NumPy,BODY_AS_VERSION,D1,B,"Changed in version NumPy: 2.1 changed the headers ...",live numpy.org/doc/stable (2026-11-03)
+2,scikit-image/scikit-image,src/_skimage2/measure/fit.py,390,{{,OTHER,D2,FP,"Deprecated since version 0.26 (placeholder replaced by str.replace in _deprecate_model_params)",source
+3,pytest-dev/pytest,doc/en/example/markers.rst,170,2.0/2.3.4,OTHER,D2,C,"Added in version 2.0/2.3.4 (two correct versions; OK in 0.1.1)",source
+4,numpy/numpy,doc/source/f2py/buildtools/index.rst,10,NumPy,OTHER,D1,B,"Changed in version NumPy: 1.26.x",live numpy.org/devdocs (2026-11-04)
+5,numpy/numpy,doc/source/reference/c-api/types-and-structures.rst,754,NumPy,OTHER,D1,B,"Changed in version NumPy: 2.4",live numpy.org/devdocs (2026-11-04)
+6,numpy/numpy,doc/source/reference/c-api/types-and-structures.rst,951,NumPy,OTHER,D1,B,"Added in version NumPy: 2.6",live numpy.org/devdocs (2026-11-04)
+7,scikit-image/scikit-image,src/_skimage2/measure/fit.py,425,{{,OTHER,D2,FP,"templated placeholder, replaced at import",source
+8,numpy/numpy,numpy/dtypes.py,9,NumPy,OTHER,D1,B,"Added in version NumPy: 1.25",live numpy.org/devdocs (2026-11-04)
+9,sqlalchemy/sqlalchemy,lib/sqlalchemy/sql/operators.py,1861,"1.4.48,",OTHER,D2,C,"Changed in version 1.4.48,: 2.0.18 Note that ... (both numbers present)",source
+10,scikit-image/scikit-image,src/_skimage2/measure/fit.py,317,{{,OTHER,D2,FP,"templated placeholder, replaced at import",source
+11,sympy/sympy,doc/src/modules/numeric-computation.rst,119,1.14.,OTHER,D2,C,"Deprecated since version 1.14.: (right number, stray period)",source
+12,sympy/sympy,sympy/physics/quantum/tensorproduct.py,312,1.14.,OTHER,D2,C,"right number, stray period",source
+13,numpy/numpy,numpy/exceptions.py,8,NumPy,OTHER,D1,B,"Added in version NumPy: 1.25",live numpy.org/devdocs (2026-11-04)
+14,scipy/scipy,scipy/signal/_filter_design.py,5821,1.2.0:,OTHER,D2,C,"right number, stray colon",source
+15,numpy/numpy,doc/source/reference/arrays.classes.rst,321,NumPy,OTHER,D1,B,"Deprecated since version NumPy: 2.0 Not implementing copy and dtype ...",live numpy.org/devdocs (2026-11-04)
+16,numpy/numpy,doc/source/f2py/buildtools/index.rst,88,NumPy,OTHER,D1,B,"Changed in version NumPy: 1.22.4",live numpy.org/devdocs (2026-11-04)
+17,sqlalchemy/sqlalchemy,lib/sqlalchemy/engine/interfaces.py,2044,2.0::,OTHER,D2,C,"Changed in version 2.0::: Dialect.has_table() now ... (right number)",live docs.sqlalchemy.org/en/20/core/internals.html (2026-11-04)
+18,scikit-image/scikit-image,src/_skimage2/measure/fit.py,1070,{{,OTHER,D2,FP,"templated placeholder, replaced at import",source
+19,tornadoweb/tornado,tornado/auth.py,466,:,OTHER,D1,A,"nothing: '.. versionchanged::: 6.0' is a comment to docutils, so the 6.0 callback-removal note is missing from OAuth2Mixin.oauth2_request (present on sibling methods)",live tornadoweb.org/en/stable/auth.html (2026-11-04)
+20,scikit-image/scikit-image,src/_skimage2/measure/fit.py,687,{{,OTHER,D2,FP,"templated placeholder, replaced at import",source
+21,sqlalchemy/sqlalchemy,lib/sqlalchemy/dialects/mysql/enumerated.py,55,The,OTHER,D1,A,"Changed in version The: MySQL ENUM type as well as the base Enum type now validates ... (no version)",live docs.sqlalchemy.org/en/20/dialects/mysql.html (2026-11-04)
+22,celery/celery,docs/userguide/monitoring.rst,840,Kombu,OTHER,D1,B,"Added in version Kombu: 5.6.0",live docs.celeryq.dev/en/latest (2026-11-04)
+23,sympy/sympy,sympy/physics/quantum/tensorproduct.py,331,1.14.,OTHER,D2,C,"right number, stray period",source
+24,numpy/numpy,doc/source/reference/c-api/types-and-structures.rst,461,NumPy,OTHER,D1,B,"Added in version NumPy: 2.0",live numpy.org/devdocs (2026-11-04)
+25,sympy/sympy,sympy/physics/quantum/operator.py,260,1.14.,OTHER,D2,C,"right number, stray period",source
+26,sqlalchemy/sqlalchemy,lib/sqlalchemy/sql/operators.py,1908,"1.4.48,",OTHER,D2,C,"both numbers present, stray comma",source
+27,scikit-image/scikit-image,src/_skimage2/measure/fit.py,351,{{,OTHER,D2,FP,"templated placeholder, replaced at import",source
+28,sympy/sympy,sympy/printing/aesaracode.py,84,1.14.,OTHER,D2,C,"right number, stray period",source
+29,pallets/werkzeug,src/werkzeug/sansio/response.py,666,"0.7"""""",",OTHER,D2,FP,"Added in version 0.7 (the scanner read the docstring's closing quotes as part of the version)",source
+30,sympy/sympy,sympy/physics/quantum/tensorproduct.py,291,1.14.,OTHER,D2,C,"right number, stray period",source
+31,sqlalchemy/sqlalchemy,lib/sqlalchemy/engine/reflection.py,433,2.0::,OTHER,D2,C,"right number, stray colons",source
+32,sqlalchemy/sqlalchemy,doc/build/orm/dataclasses.rst,313,2.0.14/2.0.22,OTHER,D2,C,"Changed in version 2.0.14/2.0.22 (two correct versions; OK in 0.1.1)",source
+33,sqlalchemy/sqlalchemy,lib/sqlalchemy/engine/interfaces.py,704,The,OTHER,D1,A,"Changed in version The: Dialect.dbapi attribute is exclusively used ... (no version)",live docs.sqlalchemy.org/en/20/core/internals.html (2026-11-04)

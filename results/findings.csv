@@ -1,0 +1,108 @@
+project,path,line,directive,arg,cls,in_literal,text
+python/cpython,Doc/c-api/conversion.rst,280,soft-deprecated,next,PLACEHOLDER,False,.. soft-deprecated:: next
+python/cpython,Doc/c-api/exceptions.rst,1353,soft-deprecated,next,PLACEHOLDER,False,.. soft-deprecated:: next
+python/cpython,Doc/c-api/exceptions.rst,1358,soft-deprecated,next,PLACEHOLDER,False,.. soft-deprecated:: next
+python/cpython,Doc/c-api/exceptions.rst,1365,soft-deprecated,next,PLACEHOLDER,False,.. soft-deprecated:: next
+python/cpython,Doc/c-api/file.rst,191,soft-deprecated,next,PLACEHOLDER,False,.. soft-deprecated:: next
+python/cpython,Doc/c-api/profiling.rst,254,soft-deprecated,next,PLACEHOLDER,False,.. soft-deprecated:: next
+python/cpython,Doc/c-api/structures.rst,795,soft-deprecated,next,PLACEHOLDER,False,.. soft-deprecated:: next
+python/cpython,Doc/c-api/synchronization.rst,272,soft-deprecated,next,PLACEHOLDER,False,.. soft-deprecated:: next
+python/cpython,Doc/c-api/weakref.rst,117,soft-deprecated,next,PLACEHOLDER,False,.. soft-deprecated:: next
+python/cpython,Doc/library/argparse.rst,2091,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/argparse.rst,2168,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/binascii.rst,294,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/concurrent.interpreters.rst,253,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/ctypes.rst,1121,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/ctypes.rst,1362,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/datetime.rst,2483,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/datetime.rst,2727,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/fileinput.rst,198,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/functools.rst,342,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/gzip.rst,310,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/os.rst,2841,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/quopri.rst,34,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/quopri.rst,56,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/shutil.rst,789,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/shutil.rst,840,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/socket.rst,1068,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/ssl.rst,344,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,903,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,912,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,920,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,928,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1030,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1107,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1113,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1120,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1127,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1133,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1141,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1148,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1154,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1160,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1166,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1173,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1179,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1535,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1547,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1562,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1644,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,1846,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,2075,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,2113,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/ssl.rst,2281,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/ssl.rst,2323,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/ssl.rst,3299,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/sys.rst,441,versionadded,next,PLACEHOLDER,False,.. versionadded:: next
+python/cpython,Doc/library/tarfile.rst,1151,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/uuid.rst,72,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/weakref.rst,152,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/weakref.rst,227,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/weakref.rst,255,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/weakref.rst,282,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/weakref.rst,321,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+python/cpython,Doc/library/xml.dom.rst,762,versionchanged,next,PLACEHOLDER,False,.. versionchanged:: next
+django/django,docs/internals/contributing/writing-documentation.txt,750,versionadded,A.B,PLACEHOLDER,True,.. versionadded:: A.B
+django/django,docs/internals/contributing/writing-documentation.txt,767,versionadded,A.B,PLACEHOLDER,True,.. versionadded:: A.B
+django/django,docs/internals/contributing/writing-documentation.txt,800,versionchanged,A.B,PLACEHOLDER,True,.. versionchanged:: A.B
+numpy/numpy,doc/source/f2py/buildtools/index.rst,10,versionchanged,NumPy,OTHER,False,.. versionchanged:: NumPy 1.26.x
+numpy/numpy,doc/source/f2py/buildtools/index.rst,88,versionchanged,NumPy,OTHER,False,.. versionchanged:: NumPy ``1.22.4``
+numpy/numpy,doc/source/f2py/buildtools/meson.rst,13,versionchanged,1.26.x,PLACEHOLDER,False,.. versionchanged:: 1.26.x
+numpy/numpy,doc/source/reference/arrays.classes.rst,321,deprecated,NumPy,OTHER,False,.. deprecated:: NumPy 2.0
+numpy/numpy,doc/source/reference/c-api/array.rst,4344,versionchanged,NumPy,BODY_AS_VERSION,False,.. versionchanged::
+numpy/numpy,doc/source/reference/c-api/types-and-structures.rst,461,versionadded,NumPy,OTHER,False,.. versionadded:: NumPy 2.0
+numpy/numpy,doc/source/reference/c-api/types-and-structures.rst,754,versionchanged,NumPy,OTHER,False,.. versionchanged:: NumPy 2.4
+numpy/numpy,doc/source/reference/c-api/types-and-structures.rst,951,versionadded,NumPy,OTHER,False,.. versionadded:: NumPy 2.6
+numpy/numpy,numpy/dtypes.py,9,versionadded,NumPy,OTHER,False,.. versionadded:: NumPy 1.25
+numpy/numpy,numpy/exceptions.py,8,versionadded,NumPy,OTHER,False,.. versionadded:: NumPy 1.25
+scipy/scipy,scipy/_lib/deprecation.py,189,deprecated,{version},PLACEHOLDER,False,.. deprecated:: {version}
+scipy/scipy,scipy/signal/_filter_design.py,5821,versionadded,1.2.0:,OTHER,False,.. versionadded:: 1.2.0:
+pandas-dev/pandas,pandas/util/_decorators.py,95,deprecated,{version},PLACEHOLDER,False,.. deprecated:: {version}
+sphinx-doc/sphinx,doc/usage/restructuredtext/directives.rst,541,versionadded,version,PLACEHOLDER,False,.. versionadded:: version [brief explanation]
+sphinx-doc/sphinx,doc/usage/restructuredtext/directives.rst,597,versionchanged,version,PLACEHOLDER,False,.. versionchanged:: version [brief explanation]
+sphinx-doc/sphinx,doc/usage/restructuredtext/directives.rst,615,deprecated,version,PLACEHOLDER,False,.. deprecated:: version [brief explanation]
+sphinx-doc/sphinx,doc/usage/restructuredtext/directives.rst,635,versionremoved,version,PLACEHOLDER,False,.. versionremoved:: version [brief explanation]
+sqlalchemy/sqlalchemy,doc/build/orm/dataclasses.rst,313,versionchanged,2.0.14/2.0.22,OTHER,False,.. versionchanged:: 2.0.14/2.0.22  the ``Annotated`` construct when used with
+sqlalchemy/sqlalchemy,lib/sqlalchemy/dialects/mysql/enumerated.py,55,versionchanged,The,OTHER,False,.. versionchanged:: The MySQL ENUM type as well as the base Enum
+sqlalchemy/sqlalchemy,lib/sqlalchemy/engine/interfaces.py,704,versionchanged,The,OTHER,False,.. versionchanged:: The :attr:`.Dialect.dbapi` attribute is exclusively
+sqlalchemy/sqlalchemy,lib/sqlalchemy/engine/interfaces.py,2044,versionchanged,2.0::,OTHER,False,.. versionchanged:: 2.0:: :meth:`_engine.Dialect.has_table` now
+sqlalchemy/sqlalchemy,lib/sqlalchemy/engine/reflection.py,433,versionchanged,2.0::,OTHER,False,.. versionchanged:: 2.0:: :meth:`.Inspector.has_table` now formally
+sqlalchemy/sqlalchemy,lib/sqlalchemy/sql/operators.py,1861,versionchanged,"1.4.48,",OTHER,False,".. versionchanged:: 1.4.48, 2.0.18  Note that due to an implementation"
+sqlalchemy/sqlalchemy,lib/sqlalchemy/sql/operators.py,1908,versionchanged,"1.4.48,",OTHER,False,".. versionchanged:: 1.4.48, 2.0.18  Note that due to an implementation"
+pytest-dev/pytest,doc/en/example/markers.rst,170,versionadded,2.0/2.3.4,OTHER,False,.. versionadded:: 2.0/2.3.4
+pallets/werkzeug,src/werkzeug/sansio/response.py,666,versionadded,"0.7"""""",",OTHER,False,".. versionadded:: 0.7"""""","
+celery/celery,docs/userguide/monitoring.rst,840,versionadded,Kombu,OTHER,False,.. versionadded:: Kombu 5.6.0
+sympy/sympy,doc/src/modules/numeric-computation.rst,119,deprecated,1.14.,OTHER,False,.. deprecated:: 1.14.
+sympy/sympy,sympy/physics/quantum/operator.py,260,deprecated,1.14.,OTHER,False,.. deprecated:: 1.14.
+sympy/sympy,sympy/physics/quantum/tensorproduct.py,291,deprecated,1.14.,OTHER,False,.. deprecated:: 1.14.
+sympy/sympy,sympy/physics/quantum/tensorproduct.py,312,deprecated,1.14.,OTHER,False,.. deprecated:: 1.14.
+sympy/sympy,sympy/physics/quantum/tensorproduct.py,331,deprecated,1.14.,OTHER,False,.. deprecated:: 1.14.
+sympy/sympy,sympy/printing/aesaracode.py,84,deprecated,1.14.,OTHER,False,.. deprecated:: 1.14.
+scikit-image/scikit-image,src/_skimage2/measure/fit.py,317,deprecated,{{,OTHER,False,.. deprecated:: {{ start_version }}
+scikit-image/scikit-image,src/_skimage2/measure/fit.py,351,deprecated,{{,OTHER,False,.. deprecated:: {{ start_version }}
+scikit-image/scikit-image,src/_skimage2/measure/fit.py,390,deprecated,{{,OTHER,False,.. deprecated:: {{ start_version }}
+scikit-image/scikit-image,src/_skimage2/measure/fit.py,425,deprecated,{{,OTHER,False,.. deprecated:: {{ start_version }}
+scikit-image/scikit-image,src/_skimage2/measure/fit.py,687,deprecated,{{,OTHER,False,.. deprecated:: {{ start_version }}
+scikit-image/scikit-image,src/_skimage2/measure/fit.py,1070,deprecated,{{,OTHER,False,.. deprecated:: {{ start_version }}
+scikit-image/scikit-image,tests/skimage2/_shared/test_utils.py,220,deprecated,x,OTHER,False,.. deprecated:: x
+tornadoweb/tornado,tornado/auth.py,466,versionchanged,:,OTHER,False,.. versionchanged::: 6.0

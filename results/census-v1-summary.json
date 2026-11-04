@@ -1,0 +1,437 @@
+{
+ "C1_held": true,
+ "C1_projects": [
+  "celery/celery",
+  "numpy/numpy",
+  "pallets/werkzeug",
+  "pytest-dev/pytest",
+  "scikit-image/scikit-image",
+  "scipy/scipy",
+  "sqlalchemy/sqlalchemy",
+  "sympy/sympy",
+  "tornadoweb/tornado"
+ ],
+ "C1_projects_with_finding": 9,
+ "C2": "graded by hand on review_set.csv (GRADING.md)",
+ "C3_graded": true,
+ "C3_held": false,
+ "C3_own": 24,
+ "C3_pool_micro_labelled": 61,
+ "C3_share_own": 0.39344262295081966,
+ "django_backport_notes": 70,
+ "django_relation_counts": {
+  "newer": 1,
+  "older": 37,
+  "own": 32,
+  "unparsed": 0
+ },
+ "django_tags_listed": 175,
+ "django_tags_scanned": 175,
+ "finished_at": "2026-11-03T14:59:45Z",
+ "flagged_in_test_paths": 1,
+ "gate": {
+  "G1_numpy_known_body_as_version": true,
+  "G2_projects_read_ge_90pct": true,
+  "G3_django_tags_scanned_ge_90pct": true
+ },
+ "gate_held": true,
+ "log": [
+  "python/cpython: 3604 files, 6399 notes, 0 reported",
+  "django/django: 3682 files, 181 notes, 0 reported",
+  "numpy/numpy: 1483 files, 247 notes, 9 reported",
+  "scipy/scipy: 1738 files, 596 notes, 1 reported",
+  "pandas-dev/pandas: 1550 files, 353 notes, 0 reported",
+  "matplotlib/matplotlib: 1478 files, 176 notes, 0 reported",
+  "scikit-learn/scikit-learn: 1329 files, 1006 notes, 0 reported",
+  "sphinx-doc/sphinx: 1360 files, 1018 notes, 0 reported",
+  "sqlalchemy/sqlalchemy: 911 files, 1115 notes, 7 reported",
+  "pytest-dev/pytest: 569 files, 191 notes, 1 reported",
+  "pypa/pip: 838 files, 167 notes, 0 reported",
+  "pypa/setuptools: 415 files, 132 notes, 0 reported",
+  "python-attrs/attrs: 100 files, 162 notes, 0 reported",
+  "pallets/flask: 178 files, 270 notes, 0 reported",
+  "pallets/werkzeug: 193 files, 585 notes, 1 reported",
+  "pallets/jinja: 80 files, 120 notes, 0 reported",
+  "pallets/click: 134 files, 226 notes, 0 reported",
+  "celery/celery: 769 files, 187 notes, 1 reported",
+  "astropy/astropy: 1479 files, 190 notes, 0 reported",
+  "networkx/networkx: 908 files, 6 notes, 0 reported",
+  "pydata/xarray: 348 files, 10 notes, 0 reported",
+  "sympy/sympy: 1957 files, 72 notes, 6 reported",
+  "ipython/ipython: 406 files, 45 notes, 0 reported",
+  "python-pillow/Pillow: 488 files, 293 notes, 0 reported",
+  "scikit-image/scikit-image: 1163 files, 137 notes, 7 reported",
+  "statsmodels/statsmodels: 1600 files, 169 notes, 0 reported",
+  "dask/dask: 478 files, 9 notes, 0 reported",
+  "tornadoweb/tornado: 244 files, 384 notes, 1 reported",
+  "pyca/cryptography: 544 files, 551 notes, 0 reported",
+  "python/mypy: 1413 files, 0 notes, 0 reported",
+  "cloned django"
+ ],
+ "notes_total": 14997,
+ "per_project": [
+  {
+   "commit": "ef985af0f201c390d903abde231c25bb9d50ec27",
+   "counts": {
+    "OK": 6335,
+    "OK_lit": 1,
+    "PLACEHOLDER": 63
+   },
+   "files": 3604,
+   "notes": 6399,
+   "ok": true,
+   "project": "python/cpython",
+   "reported": 0
+  },
+  {
+   "commit": "b501b8493f31cf8cba31211d59b3b78642b8cb02",
+   "counts": {
+    "OK": 177,
+    "OK_lit": 1,
+    "PLACEHOLDER_lit": 3
+   },
+   "files": 3682,
+   "notes": 181,
+   "ok": true,
+   "project": "django/django",
+   "reported": 0
+  },
+  {
+   "commit": "3a24d8a053d41128b664dec320b70734bd442d6c",
+   "counts": {
+    "BODY_AS_VERSION": 1,
+    "OK": 236,
+    "OK_lit": 1,
+    "OTHER": 8,
+    "PLACEHOLDER": 1
+   },
+   "files": 1483,
+   "notes": 247,
+   "ok": true,
+   "project": "numpy/numpy",
+   "reported": 9
+  },
+  {
+   "commit": "539b2ceca4ad3c3441f98da0e0da2c185f1e9b53",
+   "counts": {
+    "OK": 594,
+    "OTHER": 1,
+    "PLACEHOLDER": 1
+   },
+   "files": 1738,
+   "notes": 596,
+   "ok": true,
+   "project": "scipy/scipy",
+   "reported": 1
+  },
+  {
+   "commit": "22b1187190378d540829738de26d5edd27f7afbd",
+   "counts": {
+    "OK": 352,
+    "PLACEHOLDER": 1
+   },
+   "files": 1550,
+   "notes": 353,
+   "ok": true,
+   "project": "pandas-dev/pandas",
+   "reported": 0
+  },
+  {
+   "commit": "95a3d2929ba2a1c2c2f3afbf343d38e04066de7d",
+   "counts": {
+    "OK": 172,
+    "OK_lit": 4
+   },
+   "files": 1478,
+   "notes": 176,
+   "ok": true,
+   "project": "matplotlib/matplotlib",
+   "reported": 0
+  },
+  {
+   "commit": "ac396aee204a23710691ddd1356b583bd2482e98",
+   "counts": {
+    "OK": 1004,
+    "OK_lit": 2
+   },
+   "files": 1329,
+   "notes": 1006,
+   "ok": true,
+   "project": "scikit-learn/scikit-learn",
+   "reported": 0
+  },
+  {
+   "commit": "035a07c32c3241fd3356f4d827800c1f88525272",
+   "counts": {
+    "OK": 1009,
+    "OK_lit": 5,
+    "PLACEHOLDER": 4
+   },
+   "files": 1360,
+   "notes": 1018,
+   "ok": true,
+   "project": "sphinx-doc/sphinx",
+   "reported": 0
+  },
+  {
+   "commit": "10901e3102260d0b39df253bdfc88fb57e244969",
+   "counts": {
+    "OK": 1108,
+    "OTHER": 7
+   },
+   "files": 911,
+   "notes": 1115,
+   "ok": true,
+   "project": "sqlalchemy/sqlalchemy",
+   "reported": 7
+  },
+  {
+   "commit": "8b005ed7f972987033ec34dc1e68b0635fb8142b",
+   "counts": {
+    "OK": 189,
+    "OK_lit": 1,
+    "OTHER": 1
+   },
+   "files": 569,
+   "notes": 191,
+   "ok": true,
+   "project": "pytest-dev/pytest",
+   "reported": 1
+  },
+  {
+   "commit": "42f71db0668896db06742a89f975c7d5f3132677",
+   "counts": {
+    "OK": 167
+   },
+   "files": 838,
+   "notes": 167,
+   "ok": true,
+   "project": "pypa/pip",
+   "reported": 0
+  },
+  {
+   "commit": "049ae8e3083514378aedb352a2017fbc306bd126",
+   "counts": {
+    "OK": 132
+   },
+   "files": 415,
+   "notes": 132,
+   "ok": true,
+   "project": "pypa/setuptools",
+   "reported": 0
+  },
+  {
+   "commit": "9d9f94a043de7fc4012459853a4ed597a5577855",
+   "counts": {
+    "OK": 162
+   },
+   "files": 100,
+   "notes": 162,
+   "ok": true,
+   "project": "python-attrs/attrs",
+   "reported": 0
+  },
+  {
+   "commit": "49943b5a94413a530761350f04e896f76e8d620e",
+   "counts": {
+    "OK": 270
+   },
+   "files": 178,
+   "notes": 270,
+   "ok": true,
+   "project": "pallets/flask",
+   "reported": 0
+  },
+  {
+   "commit": "2adaad1ab68312fa46efb07ff072b15b720e2444",
+   "counts": {
+    "OK": 584,
+    "OTHER": 1
+   },
+   "files": 193,
+   "notes": 585,
+   "ok": true,
+   "project": "pallets/werkzeug",
+   "reported": 1
+  },
+  {
+   "commit": "5ef70112a1ff19c05324ff889dd30405b1002044",
+   "counts": {
+    "OK": 120
+   },
+   "files": 80,
+   "notes": 120,
+   "ok": true,
+   "project": "pallets/jinja",
+   "reported": 0
+  },
+  {
+   "commit": "2247b35ea1c47c727d7a06e51fa280e12a863ff6",
+   "counts": {
+    "OK": 226
+   },
+   "files": 134,
+   "notes": 226,
+   "ok": true,
+   "project": "pallets/click",
+   "reported": 0
+  },
+  {
+   "commit": "5d83c46ebb3f7183998f55fa2e5af0ad0038b278",
+   "counts": {
+    "OK": 186,
+    "OTHER": 1
+   },
+   "files": 769,
+   "notes": 187,
+   "ok": true,
+   "project": "celery/celery",
+   "reported": 1
+  },
+  {
+   "commit": "287281c880789dd6fa8f56d17513352a09350d4e",
+   "counts": {
+    "OK": 190
+   },
+   "files": 1479,
+   "notes": 190,
+   "ok": true,
+   "project": "astropy/astropy",
+   "reported": 0
+  },
+  {
+   "commit": "e178cad23be90570e92b45354e213fb810ba9bd0",
+   "counts": {
+    "OK": 6
+   },
+   "files": 908,
+   "notes": 6,
+   "ok": true,
+   "project": "networkx/networkx",
+   "reported": 0
+  },
+  {
+   "commit": "55705ced301f5b5a9775bfdedf94fb1da68b42cd",
+   "counts": {
+    "OK": 10
+   },
+   "files": 348,
+   "notes": 10,
+   "ok": true,
+   "project": "pydata/xarray",
+   "reported": 0
+  },
+  {
+   "commit": "3894f344f6672f89f072dcdebc5831ac1349adbf",
+   "counts": {
+    "OK": 65,
+    "OK_lit": 1,
+    "OTHER": 6
+   },
+   "files": 1957,
+   "notes": 72,
+   "ok": true,
+   "project": "sympy/sympy",
+   "reported": 6
+  },
+  {
+   "commit": "cf63afd11e2fca4eb4645e9d5b4a712f3549f632",
+   "counts": {
+    "OK": 45
+   },
+   "files": 406,
+   "notes": 45,
+   "ok": true,
+   "project": "ipython/ipython",
+   "reported": 0
+  },
+  {
+   "commit": "eca0d47d9c63e40a09ea91ad5c05c9bbe96a8896",
+   "counts": {
+    "OK": 293
+   },
+   "files": 488,
+   "notes": 293,
+   "ok": true,
+   "project": "python-pillow/Pillow",
+   "reported": 0
+  },
+  {
+   "commit": "fa1e07e2090bb4ad8368ae80edee62c3cc18f8b4",
+   "counts": {
+    "OK": 130,
+    "OTHER": 7
+   },
+   "files": 1163,
+   "notes": 137,
+   "ok": true,
+   "project": "scikit-image/scikit-image",
+   "reported": 7
+  },
+  {
+   "commit": "72942d5717a8915b9f0102a8ac3416a727e883a5",
+   "counts": {
+    "OK": 169
+   },
+   "files": 1600,
+   "notes": 169,
+   "ok": true,
+   "project": "statsmodels/statsmodels",
+   "reported": 0
+  },
+  {
+   "commit": "6ce3740fa79bfa051ecc74c3641f8c6a46dfdc30",
+   "counts": {
+    "OK": 9
+   },
+   "files": 478,
+   "notes": 9,
+   "ok": true,
+   "project": "dask/dask",
+   "reported": 0
+  },
+  {
+   "commit": "57deb98e96e13c5887ddde237c266fa4872ae46d",
+   "counts": {
+    "OK": 383,
+    "OTHER": 1
+   },
+   "files": 244,
+   "notes": 384,
+   "ok": true,
+   "project": "tornadoweb/tornado",
+   "reported": 1
+  },
+  {
+   "commit": "f1aa50afd08a1d136a1f44f31f7fff41ee29c0da",
+   "counts": {
+    "OK": 551
+   },
+   "files": 544,
+   "notes": 551,
+   "ok": true,
+   "project": "pyca/cryptography",
+   "reported": 0
+  },
+  {
+   "commit": "623bef9bc203aa024367ffd0f46cde9f293b465f",
+   "counts": {},
+   "files": 1413,
+   "notes": 0,
+   "ok": true,
+   "project": "python/mypy",
+   "reported": 0
+  }
+ ],
+ "projects_listed": 30,
+ "projects_read": 30,
+ "reported_by_class": {
+  "BODY_AS_VERSION": 1,
+  "MISSING": 0,
+  "OTHER": 32
+ },
+ "reported_outside_literal": 33,
+ "review_set_size": 33,
+ "seconds": 188.4,
+ "tool_version": "0.1.0"
+}

@@ -1,0 +1,41 @@
+project,sample,path,line,directive,arg,cls,in_literal,test_path,sphinx_lint,text
+scipy/scipy,v1,scipy/optimize/_differentialevolution.py,632,versionchanged,1.15.0,RAW_TEXT,False,False,False,..versionchanged:: 1.15.0
+celery/celery,v1,docs/userguide/tasks.rst,2019,versionadded,4.2,DROPPED,False,False,False,.. versionadded::4.2
+pytest-dev/pytest,v1,doc/en/example/markers.rst,548,versionadded,2.2.2,DROPPED,False,False,True,.. versionadded: 2.2.2
+scikit-learn/scikit-learn,v1,sklearn/svm/_classes.py,940,deprecated,1.9,RAW_TEXT,False,False,False,..deprecated:: 1.9
+pytest-dev/pytest,v1,doc/en/how-to/failures.rst,74,versionadded,2.4.0,DROPPED,False,False,True,.. versionadded: 2.4.0
+python/cpython,v1,Lib/abc.py,87,deprecated-removed,3.3,DROPPED,False,False,False,.. deprecated-removed: 3.3 3.21
+pytest-dev/pytest,v1,doc/en/how-to/output.rst,565,versionadded,8.4,DROPPED,False,False,True,.. versionadded: 8.4
+pygments/pygments,new,pygments/lexers/savi.py,36,versionadded,2.10,DROPPED,False,False,False,.. versionadded: 2.10
+Pylons/pyramid,new,src/pyramid/config/views.py,1783,versionchanged,1.10,DROPPED,False,False,False,.. versionchanged: 1.10
+pygments/pygments,new,pygments/lexers/clean.py,23,versionadded,2.2,DROPPED,False,False,False,.. versionadded: 2.2
+pytest-dev/pytest,v1,src/_pytest/fixtures.py,2590,versionadded,9.1,DROPPED,False,False,False,.. versionadded: 9.1
+mongodb/mongo-python-driver,new,pymongo/collation.py,155,versionadded,3.4,DROPPED,False,False,False,.. versionadded: 3.4
+pytest-dev/pytest,v1,doc/en/example/simple.rst,501,versionadded,2.2,DROPPED,False,False,True,.. versionadded: 2.2
+pygments/pygments,new,pygments/lexers/javascript.py,1252,versionadded,2.1,DROPPED,False,False,False,.. versionadded: 2.1
+mongodb/mongo-python-driver,new,bson/errors.py,45,versionadded,4.16,RAW_TEXT,False,False,False,"..versionadded:: 4.16"""""""
+tornadoweb/tornado,v1,tornado/auth.py,466,versionchanged,6.0,DROPPED,False,False,False,.. versionchanged::: 6.0
+pygments/pygments,new,pygments/lexers/promql.py,25,versionadded,2.7,DROPPED,False,False,False,.. versionadded: 2.7
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/engine/interfaces.py,1011,versionadded,2.1,RAW_TEXT,False,False,False,..versionadded:: 2.1
+Pylons/pyramid,new,src/pyramid/session.py,464,versionchanged,1.10,DROPPED,False,False,False,.. versionchanged: 1.10
+sphinx-doc/sphinx,v1,sphinx/application.py,1902,versionadded,4.1,DROPPED,False,False,False,.. versionadded: 4.1
+sqlalchemy/alembic,new,alembic/operations/base.py,566,versionadded,1.11,DROPPED,False,False,False,.. versionadded: 1.11
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/ext/asyncio/session.py,835,versionadded,2.0.22,RAW_TEXT,False,False,False,..versionadded: 2.0.22
+Pylons/pyramid,new,src/pyramid/config/views.py,767,versionchanged,1.7,DROPPED,False,False,False,.. versionchanged: 1.7
+tornadoweb/tornado,v1,tornado/web.py,1419,versionchanged,4.1,DROPPED,False,False,False,.. versionchanged: 4.1
+python/cpython,v1,Lib/abc.py,39,deprecated-removed,3.3,DROPPED,False,False,False,.. deprecated-removed: 3.3 3.21
+pyca/cryptography,v1,docs/x509/reference.rst,1677,versionadded,37.0.0,DROPPED,False,False,True,.. versionadded: 37.0.0
+Pylons/pyramid,new,src/pyramid/session.py,183,versionadded,1.5a3,DROPPED,False,False,False,.. versionadded: 1.5a3
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/ext/asyncio/scoping.py,1292,versionadded,2.0.22,RAW_TEXT,False,False,False,..versionadded: 2.0.22
+Pylons/pyramid,new,src/pyramid/csrf.py,108,versionchanged,1.10,DROPPED,False,False,False,.. versionchanged: 1.10
+celery/celery,v1,docs/userguide/configuration.rst,398,versionadded,4.0,DROPPED,False,False,True,.. versionadded: 4.0
+Pylons/pyramid,new,src/pyramid/config/views.py,765,versionadded,1.4a1,DROPPED,False,False,False,.. versionadded: 1.4a1
+Pylons/pyramid,new,src/pyramid/session.py,185,versionchanged,1.10,DROPPED,False,False,False,.. versionchanged: 1.10
+python/cpython,v1,Lib/abc.py,63,deprecated-removed,3.3,DROPPED,False,False,False,.. deprecated-removed: 3.3 3.21
+tornadoweb/tornado,v1,tornado/routing.py,657,versionchanged,4.5,DROPPED,False,False,False,.. versionchanged: 4.5
+sqlalchemy/alembic,new,alembic/op.pyi,1411,versionadded,1.11,DROPPED,False,False,False,.. versionadded: 1.11
+statsmodels/statsmodels,v1,statsmodels/tsa/seasonal/_seasonal.py,135,deprecated,0.14,DROPPED,False,False,False,.. deprecated: 0.14
+pytest-dev/pytest,v1,doc/en/backwards-compatibility.rst,6,versionadded,6.0,DROPPED,False,False,True,.. versionadded: 6.0
+scikit-learn/scikit-learn,v1,sklearn/svm/_classes.py,680,deprecated,1.9,RAW_TEXT,False,False,False,..deprecated:: 1.9
+Pylons/pyramid,new,src/pyramid/session.py,468,versionchanged,2.0,DROPPED,False,False,False,.. versionchanged: 2.0
+pygments/pygments,new,pygments/lexers/javascript.py,1548,versionadded,2.10,DROPPED,False,False,False,.. versionadded: 2.10

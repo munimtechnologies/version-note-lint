@@ -1,0 +1,152 @@
+project,sample,path,line,directive,arg,cls,in_literal,test_path,sphinx_lint,text
+python/cpython,v1,Doc/c-api/conversion.rst,280,soft-deprecated,next,PLACEHOLDER,False,False,False,.. soft-deprecated:: next
+python/cpython,v1,Doc/c-api/exceptions.rst,1353,soft-deprecated,next,PLACEHOLDER,False,False,False,.. soft-deprecated:: next
+python/cpython,v1,Doc/c-api/exceptions.rst,1358,soft-deprecated,next,PLACEHOLDER,False,False,False,.. soft-deprecated:: next
+python/cpython,v1,Doc/c-api/exceptions.rst,1365,soft-deprecated,next,PLACEHOLDER,False,False,False,.. soft-deprecated:: next
+python/cpython,v1,Doc/c-api/file.rst,191,soft-deprecated,next,PLACEHOLDER,False,False,False,.. soft-deprecated:: next
+python/cpython,v1,Doc/c-api/profiling.rst,254,soft-deprecated,next,PLACEHOLDER,False,False,False,.. soft-deprecated:: next
+python/cpython,v1,Doc/c-api/structures.rst,795,soft-deprecated,next,PLACEHOLDER,False,False,False,.. soft-deprecated:: next
+python/cpython,v1,Doc/c-api/synchronization.rst,272,soft-deprecated,next,PLACEHOLDER,False,False,False,.. soft-deprecated:: next
+python/cpython,v1,Doc/c-api/weakref.rst,117,soft-deprecated,next,PLACEHOLDER,False,False,False,.. soft-deprecated:: next
+python/cpython,v1,Doc/library/argparse.rst,2091,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/argparse.rst,2168,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/binascii.rst,294,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/concurrent.interpreters.rst,253,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/ctypes.rst,1121,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/ctypes.rst,1362,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/datetime.rst,2483,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/datetime.rst,2727,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/fileinput.rst,198,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/functools.rst,342,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/gzip.rst,310,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/os.rst,2841,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/quopri.rst,34,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/quopri.rst,56,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/shutil.rst,789,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/shutil.rst,840,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/socket.rst,1068,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/ssl.rst,344,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,903,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,912,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,920,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,928,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1030,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1107,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1113,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1120,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1127,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1133,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1141,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1148,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1154,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1160,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1166,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1173,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1179,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1535,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1547,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1562,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1644,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,1846,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,2075,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,2113,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/ssl.rst,2281,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/ssl.rst,2323,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/ssl.rst,3299,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/sys.rst,441,versionadded,next,PLACEHOLDER,False,False,False,.. versionadded:: next
+python/cpython,v1,Doc/library/tarfile.rst,1151,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/uuid.rst,72,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/weakref.rst,152,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/weakref.rst,227,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/weakref.rst,255,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/weakref.rst,282,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/weakref.rst,321,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Doc/library/xml.dom.rst,762,versionchanged,next,PLACEHOLDER,False,False,False,.. versionchanged:: next
+python/cpython,v1,Lib/abc.py,39,deprecated-removed,3.3,DROPPED,False,False,False,.. deprecated-removed: 3.3 3.21
+python/cpython,v1,Lib/abc.py,63,deprecated-removed,3.3,DROPPED,False,False,False,.. deprecated-removed: 3.3 3.21
+python/cpython,v1,Lib/abc.py,87,deprecated-removed,3.3,DROPPED,False,False,False,.. deprecated-removed: 3.3 3.21
+django/django,v1,docs/internals/contributing/writing-documentation.txt,750,versionadded,A.B,PLACEHOLDER,True,False,False,.. versionadded:: A.B
+django/django,v1,docs/internals/contributing/writing-documentation.txt,767,versionadded,A.B,PLACEHOLDER,True,False,False,.. versionadded:: A.B
+django/django,v1,docs/internals/contributing/writing-documentation.txt,800,versionchanged,A.B,PLACEHOLDER,True,False,False,.. versionchanged:: A.B
+numpy/numpy,v1,doc/source/f2py/buildtools/index.rst,10,versionchanged,NumPy,OTHER,False,False,False,.. versionchanged:: NumPy 1.26.x
+numpy/numpy,v1,doc/source/f2py/buildtools/index.rst,88,versionchanged,NumPy,OTHER,False,False,False,.. versionchanged:: NumPy ``1.22.4``
+numpy/numpy,v1,doc/source/f2py/buildtools/meson.rst,13,versionchanged,1.26.x,PLACEHOLDER,False,False,False,.. versionchanged:: 1.26.x
+numpy/numpy,v1,doc/source/reference/arrays.classes.rst,321,deprecated,NumPy,OTHER,False,False,False,.. deprecated:: NumPy 2.0
+numpy/numpy,v1,doc/source/reference/c-api/array.rst,4350,versionchanged,NumPy,BODY_AS_VERSION,False,False,False,.. versionchanged::
+numpy/numpy,v1,doc/source/reference/c-api/types-and-structures.rst,461,versionadded,NumPy,OTHER,False,False,False,.. versionadded:: NumPy 2.0
+numpy/numpy,v1,doc/source/reference/c-api/types-and-structures.rst,754,versionchanged,NumPy,OTHER,False,False,False,.. versionchanged:: NumPy 2.4
+numpy/numpy,v1,doc/source/reference/c-api/types-and-structures.rst,951,versionadded,NumPy,OTHER,False,False,False,.. versionadded:: NumPy 2.6
+numpy/numpy,v1,numpy/dtypes.py,9,versionadded,NumPy,OTHER,False,False,False,.. versionadded:: NumPy 1.25
+numpy/numpy,v1,numpy/exceptions.py,8,versionadded,NumPy,OTHER,False,False,False,.. versionadded:: NumPy 1.25
+scipy/scipy,v1,scipy/_lib/deprecation.py,189,deprecated,{version},PLACEHOLDER,False,False,False,.. deprecated:: {version}
+scipy/scipy,v1,scipy/optimize/_differentialevolution.py,632,versionchanged,1.15.0,RAW_TEXT,False,False,False,..versionchanged:: 1.15.0
+scipy/scipy,v1,scipy/signal/_filter_design.py,5821,versionadded,1.2.0:,PUNCT,False,False,False,.. versionadded:: 1.2.0:
+pandas-dev/pandas,v1,pandas/util/_decorators.py,95,deprecated,{version},PLACEHOLDER,False,False,False,.. deprecated:: {version}
+scikit-learn/scikit-learn,v1,sklearn/svm/_classes.py,680,deprecated,1.9,RAW_TEXT,False,False,False,..deprecated:: 1.9
+scikit-learn/scikit-learn,v1,sklearn/svm/_classes.py,940,deprecated,1.9,RAW_TEXT,False,False,False,..deprecated:: 1.9
+sphinx-doc/sphinx,v1,doc/usage/restructuredtext/directives.rst,541,versionadded,version,PLACEHOLDER,False,False,False,.. versionadded:: version [brief explanation]
+sphinx-doc/sphinx,v1,doc/usage/restructuredtext/directives.rst,597,versionchanged,version,PLACEHOLDER,False,False,False,.. versionchanged:: version [brief explanation]
+sphinx-doc/sphinx,v1,doc/usage/restructuredtext/directives.rst,615,deprecated,version,PLACEHOLDER,False,False,False,.. deprecated:: version [brief explanation]
+sphinx-doc/sphinx,v1,doc/usage/restructuredtext/directives.rst,635,versionremoved,version,PLACEHOLDER,False,False,False,.. versionremoved:: version [brief explanation]
+sphinx-doc/sphinx,v1,sphinx/application.py,1902,versionadded,4.1,DROPPED,False,False,False,.. versionadded: 4.1
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/dialects/mysql/enumerated.py,55,versionchanged,The,OTHER,False,False,False,.. versionchanged:: The MySQL ENUM type as well as the base Enum
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/engine/interfaces.py,704,versionchanged,The,OTHER,False,False,False,.. versionchanged:: The :attr:`.Dialect.dbapi` attribute is exclusively
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/engine/interfaces.py,1011,versionadded,2.1,RAW_TEXT,False,False,False,..versionadded:: 2.1
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/engine/interfaces.py,2044,versionchanged,2.0::,PUNCT,False,False,False,.. versionchanged:: 2.0:: :meth:`_engine.Dialect.has_table` now
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/engine/reflection.py,433,versionchanged,2.0::,PUNCT,False,False,False,.. versionchanged:: 2.0:: :meth:`.Inspector.has_table` now formally
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/ext/asyncio/scoping.py,1292,versionadded,2.0.22,RAW_TEXT,False,False,False,..versionadded: 2.0.22
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/ext/asyncio/session.py,835,versionadded,2.0.22,RAW_TEXT,False,False,False,..versionadded: 2.0.22
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/ext/declarative/extensions.py,444,versionchanged,2.0.16,RAW_TEXT,False,False,False,..versionchanged:: 2.0.16 a :class:`_engine.Connection` is also
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/sql/operators.py,1861,versionchanged,"1.4.48,",PUNCT,False,False,False,".. versionchanged:: 1.4.48, 2.0.18  Note that due to an implementation"
+sqlalchemy/sqlalchemy,v1,lib/sqlalchemy/sql/operators.py,1908,versionchanged,"1.4.48,",PUNCT,False,False,False,".. versionchanged:: 1.4.48, 2.0.18  Note that due to an implementation"
+pytest-dev/pytest,v1,doc/en/backwards-compatibility.rst,6,versionadded,6.0,DROPPED,False,False,True,.. versionadded: 6.0
+pytest-dev/pytest,v1,doc/en/example/markers.rst,548,versionadded,2.2.2,DROPPED,False,False,True,.. versionadded: 2.2.2
+pytest-dev/pytest,v1,doc/en/example/simple.rst,501,versionadded,2.2,DROPPED,False,False,True,.. versionadded: 2.2
+pytest-dev/pytest,v1,doc/en/how-to/failures.rst,74,versionadded,2.4.0,DROPPED,False,False,True,.. versionadded: 2.4.0
+pytest-dev/pytest,v1,doc/en/how-to/output.rst,565,versionadded,8.4,DROPPED,False,False,True,.. versionadded: 8.4
+pytest-dev/pytest,v1,src/_pytest/fixtures.py,2590,versionadded,9.1,DROPPED,False,False,False,.. versionadded: 9.1
+celery/celery,v1,docs/userguide/configuration.rst,398,versionadded,4.0,DROPPED,False,False,True,.. versionadded: 4.0
+celery/celery,v1,docs/userguide/monitoring.rst,840,versionadded,Kombu,OTHER,False,False,False,.. versionadded:: Kombu 5.6.0
+celery/celery,v1,docs/userguide/tasks.rst,2019,versionadded,4.2,DROPPED,False,False,False,.. versionadded::4.2
+sympy/sympy,v1,doc/src/modules/numeric-computation.rst,119,deprecated,1.14.,PUNCT,False,False,False,.. deprecated:: 1.14.
+sympy/sympy,v1,sympy/physics/quantum/operator.py,260,deprecated,1.14.,PUNCT,False,False,False,.. deprecated:: 1.14.
+sympy/sympy,v1,sympy/physics/quantum/tensorproduct.py,291,deprecated,1.14.,PUNCT,False,False,False,.. deprecated:: 1.14.
+sympy/sympy,v1,sympy/physics/quantum/tensorproduct.py,312,deprecated,1.14.,PUNCT,False,False,False,.. deprecated:: 1.14.
+sympy/sympy,v1,sympy/physics/quantum/tensorproduct.py,331,deprecated,1.14.,PUNCT,False,False,False,.. deprecated:: 1.14.
+sympy/sympy,v1,sympy/printing/aesaracode.py,84,deprecated,1.14.,PUNCT,False,False,False,.. deprecated:: 1.14.
+scikit-image/scikit-image,v1,src/_skimage2/measure/fit.py,317,deprecated,{{,PLACEHOLDER,False,False,False,.. deprecated:: {{ start_version }}
+scikit-image/scikit-image,v1,src/_skimage2/measure/fit.py,351,deprecated,{{,PLACEHOLDER,False,False,False,.. deprecated:: {{ start_version }}
+scikit-image/scikit-image,v1,src/_skimage2/measure/fit.py,390,deprecated,{{,PLACEHOLDER,False,False,False,.. deprecated:: {{ start_version }}
+scikit-image/scikit-image,v1,src/_skimage2/measure/fit.py,425,deprecated,{{,PLACEHOLDER,False,False,False,.. deprecated:: {{ start_version }}
+scikit-image/scikit-image,v1,src/_skimage2/measure/fit.py,687,deprecated,{{,PLACEHOLDER,False,False,False,.. deprecated:: {{ start_version }}
+scikit-image/scikit-image,v1,src/_skimage2/measure/fit.py,1070,deprecated,{{,PLACEHOLDER,False,False,False,.. deprecated:: {{ start_version }}
+scikit-image/scikit-image,v1,tests/skimage2/_shared/test_utils.py,220,deprecated,x,OTHER,False,True,False,.. deprecated:: x
+statsmodels/statsmodels,v1,statsmodels/tsa/seasonal/_seasonal.py,135,deprecated,0.14,DROPPED,False,False,False,.. deprecated: 0.14
+tornadoweb/tornado,v1,tornado/auth.py,466,versionchanged,6.0,DROPPED,False,False,False,.. versionchanged::: 6.0
+tornadoweb/tornado,v1,tornado/routing.py,657,versionchanged,4.5,DROPPED,False,False,False,.. versionchanged: 4.5
+tornadoweb/tornado,v1,tornado/web.py,1419,versionchanged,4.1,DROPPED,False,False,False,.. versionchanged: 4.1
+pyca/cryptography,v1,docs/x509/reference.rst,1677,versionadded,37.0.0,DROPPED,False,False,True,.. versionadded: 37.0.0
+twisted/twisted,new,docs/core/howto/defer-intro.rst,323,versionadded,Twisted,OTHER,False,False,False,.. versionadded:: Twisted NEXT
+twisted/twisted,new,docs/core/howto/defer-intro.rst,385,versionadded,Twisted,OTHER,False,False,False,.. versionadded:: Twisted NEXT
+sqlalchemy/alembic,new,alembic/op.pyi,1411,versionadded,1.11,DROPPED,False,False,False,.. versionadded: 1.11
+sqlalchemy/alembic,new,alembic/operations/base.py,566,versionadded,1.11,DROPPED,False,False,False,.. versionadded: 1.11
+numba/numba,new,numba/core/caching.py,253,deprecated,Source,BODY_AS_VERSION,False,False,False,.. deprecated::
+pymc-devs/pymc,new,pymc/distributions/custom.py,854,deprecated,``DensityDist``,BODY_AS_VERSION,False,False,False,.. deprecated::
+pymc-devs/pymc,new,pymc/sampling/deterministic.py,89,deprecated,``merge_dataset``,BODY_AS_VERSION,False,False,False,.. deprecated::
+pymc-devs/pymc,new,pymc/tuning/starting.py,244,deprecated,The,BODY_AS_VERSION,False,False,False,.. deprecated::
+pygments/pygments,new,pygments/lexers/clean.py,23,versionadded,2.2,DROPPED,False,False,False,.. versionadded: 2.2
+pygments/pygments,new,pygments/lexers/javascript.py,1252,versionadded,2.1,DROPPED,False,False,False,.. versionadded: 2.1
+pygments/pygments,new,pygments/lexers/javascript.py,1548,versionadded,2.10,DROPPED,False,False,False,.. versionadded: 2.10
+pygments/pygments,new,pygments/lexers/promql.py,25,versionadded,2.7,DROPPED,False,False,False,.. versionadded: 2.7
+pygments/pygments,new,pygments/lexers/savi.py,36,versionadded,2.10,DROPPED,False,False,False,.. versionadded: 2.10
+Pylons/pyramid,new,src/pyramid/config/views.py,765,versionadded,1.4a1,DROPPED,False,False,False,.. versionadded: 1.4a1
+Pylons/pyramid,new,src/pyramid/config/views.py,767,versionchanged,1.7,DROPPED,False,False,False,.. versionchanged: 1.7
+Pylons/pyramid,new,src/pyramid/config/views.py,1783,versionchanged,1.10,DROPPED,False,False,False,.. versionchanged: 1.10
+Pylons/pyramid,new,src/pyramid/csrf.py,108,versionchanged,1.10,DROPPED,False,False,False,.. versionchanged: 1.10
+Pylons/pyramid,new,src/pyramid/session.py,183,versionadded,1.5a3,DROPPED,False,False,False,.. versionadded: 1.5a3
+Pylons/pyramid,new,src/pyramid/session.py,185,versionchanged,1.10,DROPPED,False,False,False,.. versionchanged: 1.10
+Pylons/pyramid,new,src/pyramid/session.py,462,versionadded,1.5a3,DROPPED,False,False,False,.. versionadded: 1.5a3
+Pylons/pyramid,new,src/pyramid/session.py,464,versionchanged,1.10,DROPPED,False,False,False,.. versionchanged: 1.10
+Pylons/pyramid,new,src/pyramid/session.py,468,versionchanged,2.0,DROPPED,False,False,False,.. versionchanged: 2.0
+mongodb/mongo-python-driver,new,bson/errors.py,45,versionadded,4.16,RAW_TEXT,False,False,False,"..versionadded:: 4.16"""""""
+mongodb/mongo-python-driver,new,pymongo/collation.py,155,versionadded,3.4,DROPPED,False,False,False,.. versionadded: 3.4

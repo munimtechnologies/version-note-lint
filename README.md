@@ -44,7 +44,8 @@ not reported. In Python files, a docstring's closing quotes on the same line are
 
 sphinx-lint's `directive-missing-colons` already catches `.. versionadded: 1.2` and
 `.. versionadded 1.2` in .rst files. This tool also covers triple colons, `::` with no
-space after it, `..name::`, and Python docstrings.
+space after it, `..name::`, and Python docstrings. In census 2, 35 of the 42 dropped or
+raw notes were of these kinds.
 
 ## Use
 
@@ -76,8 +77,16 @@ No dependencies; one file (`version_note_lint.py`), Python 3.9+.
   false positives, now fixed. Django labels a backported note with the oldest series that
   got the change; one 5.2 LTS note (cache.txt, "Changed in Django 6.0.6") is the single
   exception in 70.
-- **Census 2** (`PREREG-2.md`, `census2.py`): silently dropped notes in 60 projects.
-  Pre-registered; results will be in `GRADING-2.md`.
+- **Census 2** (`PREREG-2.md`, `GRADING-2.md`, `results/census2/`): 60 projects, 17,289
+  notes. Gate and all four predictions held. 42 notes in 14 projects have a malformed
+  marker; of the 40 hand-graded, 35 (88%) are real losses in built docs (25 confirmed on
+  the live sites). Examples: Pyramid's 1.10 `samesite` change notes are missing from its
+  2.1 API docs; scikit-learn 1.9.1's `SVC(probability=...)`
+  deprecation shows as the raw text "..deprecated:: 1.9"; five Pygments lexers have no
+  version on pygments.org because a 2023 migration script only matched `versionadded::`.
+- **Census 3** (`PREREG-3.md`, `marker_scan.py`, `census3.py`): the same question for every
+  common directive (note, warning, seealso, code-block, testcode, autoclass, image, ...)
+  in the same 60 projects. Pre-registered 2026-11-05; results will be in `GRADING-3.md`.
 
 Related studies: munimtechnologies/backport-version-notes,
 munimtechnologies/branch-version-notes-audit.

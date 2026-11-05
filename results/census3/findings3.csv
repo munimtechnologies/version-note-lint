@@ -1,0 +1,117 @@
+project,path,line,directive,family,cls,in_literal,test_path,sphinx_lint,text
+python/cpython,Doc/using/cmdline.rst,3,attention,admonition,DROPPED,False,False,False,".. ATTENTION: You probably should update Misc/python.man, too, if you modify"
+python/cpython,Lib/abc.py,39,deprecated-removed,version,DROPPED,False,False,False,.. deprecated-removed: 3.3 3.21
+python/cpython,Lib/abc.py,63,deprecated-removed,version,DROPPED,False,False,False,.. deprecated-removed: 3.3 3.21
+python/cpython,Lib/abc.py,87,deprecated-removed,version,DROPPED,False,False,False,.. deprecated-removed: 3.3 3.21
+django/django,docs/ref/contrib/flatpages.txt,279,attribute,structure,DROPPED,False,False,False,.. attribute: registration_required
+numpy/numpy,doc/neps/nep-0007-datetime-proposal.rst,55,important,admonition,DROPPED,False,False,False,.. Important:  The information that provides meaning to the integers stored in
+numpy/numpy,doc/source/numpy_2_0_migration_guide.rst,226,code-block,code,DROPPED,False,False,False,.. code-block::C
+numpy/numpy,doc/source/reference/arrays.ndarray.rst,179,seealso,admonition,DROPPED,False,False,True,.. seealso: :ref:`Indexing <arrays.ndarray.indexing>`_
+numpy/numpy,doc/source/reference/c-api/types-and-structures.rst,1653,code-block,code,DROPPED,False,False,False,.. code-block::C
+numpy/numpy,doc/source/reference/module_structure.rst,16,note,admonition,DROPPED,False,False,False,.. Note: there is no single doc page that covers all of the main namespace as
+numpy/numpy,doc/source/reference/routines.rst,15,note,admonition,DROPPED,False,False,False,.. Note: this is a listing of functionality grouped by topic. By design this is
+numpy/numpy,numpy/f2py/tests/test_f2py2e.py,44,note,admonition,RAW_TEXT,False,True,False,..note::
+scipy/scipy,doc/source/dev/gitwash/git_links.inc,7,note,admonition,DROPPED,False,False,False,.. NOTE: reST targets are
+scipy/scipy,doc/source/tutorial/fft.rst,167,note,admonition,DROPPED,False,False,False,".. Note: Source for the ""N > 500"" statement is the `scipy.signal.fftconvolve` docstr."
+scipy/scipy,doc/source/tutorial/fft.rst,206,note,admonition,DROPPED,False,False,False,.. Note: The provided samples were determined by:
+scipy/scipy,doc/source/tutorial/interpolate/1D.rst,525,class,structure,DROPPED,False,False,False,..             class :obj:`interpolate.interp1d` with
+scipy/scipy,doc/source/tutorial/interpolate/1D.rst,557,class,structure,DROPPED,False,False,False,..             class :obj:`interpolate.interp1d` with
+scipy/scipy,scipy/_lib/_uarray/__init__.py,2,note,admonition,DROPPED,False,False,False,.. note:
+scipy/scipy,scipy/optimize/_differentialevolution.py,632,versionchanged,version,RAW_TEXT,False,False,False,..versionchanged:: 1.15.0
+scipy/scipy,scipy/spatial/_qhull.pyx,1499,note,admonition,RAW_TEXT,False,False,False,..note::
+matplotlib/matplotlib,doc/project/credits.rst,1,note,admonition,DROPPED,False,False,False,.. Note: This file is auto-generated using generate_credits.py
+scikit-learn/scikit-learn,sklearn/decomposition/_kernel_pca.py,517,note,admonition,DROPPED,False,False,False,.. note:
+scikit-learn/scikit-learn,sklearn/svm/_classes.py,680,deprecated,version,RAW_TEXT,False,False,False,..deprecated:: 1.9
+scikit-learn/scikit-learn,sklearn/svm/_classes.py,940,deprecated,version,RAW_TEXT,False,False,False,..deprecated:: 1.9
+sphinx-doc/sphinx,doc/usage/domains/index.rst,90,note,admonition,DROPPED,False,False,False,".. NOTE: The following all seem unmaintained, last released 2018 or earlier."
+sphinx-doc/sphinx,sphinx/application.py,1902,versionadded,version,DROPPED,False,False,False,.. versionadded: 4.1
+sqlalchemy/sqlalchemy,doc/build/changelog/changelog_21.rst,2744,seealso,admonition,RAW_TEXT,False,False,False,..seealso::
+sqlalchemy/sqlalchemy,doc/build/core/pooling.rst,207,note,admonition,DROPPED,False,False,True,.. note: next paragraph + example should match mssql/base.py example
+sqlalchemy/sqlalchemy,doc/build/dialects/mssql.rst,59,note,admonition,DROPPED,False,False,True,".. note: where :noindex: is used, indicates a type that is not redefined"
+sqlalchemy/sqlalchemy,doc/build/dialects/mysql.rst,69,note,admonition,DROPPED,False,False,True,".. note: where :noindex: is used, indicates a type that is not redefined"
+sqlalchemy/sqlalchemy,doc/build/dialects/postgresql.rst,457,note,admonition,DROPPED,False,False,True,".. note: where :noindex: is used, indicates a type that is not redefined"
+sqlalchemy/sqlalchemy,doc/build/orm/queryguide/relationships.rst,538,note,admonition,DROPPED,False,False,False,".. NOTE:  wow, this section. super long. it's not really reference material"
+sqlalchemy/sqlalchemy,lib/sqlalchemy/engine/create.py,469,note,admonition,DROPPED,False,False,False,".. note: don't use 30.0 above, it seems to break with the :param tag"
+sqlalchemy/sqlalchemy,lib/sqlalchemy/engine/interfaces.py,1011,versionadded,version,RAW_TEXT,False,False,False,..versionadded:: 2.1
+sqlalchemy/sqlalchemy,lib/sqlalchemy/ext/asyncio/scoping.py,1292,versionadded,version,RAW_TEXT,False,False,False,..versionadded: 2.0.22
+sqlalchemy/sqlalchemy,lib/sqlalchemy/ext/asyncio/session.py,835,versionadded,version,RAW_TEXT,False,False,False,..versionadded: 2.0.22
+sqlalchemy/sqlalchemy,lib/sqlalchemy/ext/declarative/extensions.py,444,versionchanged,version,RAW_TEXT,False,False,False,..versionchanged:: 2.0.16 a :class:`_engine.Connection` is also
+pytest-dev/pytest,doc/en/backwards-compatibility.rst,6,versionadded,version,DROPPED,False,False,True,.. versionadded: 6.0
+pytest-dev/pytest,doc/en/example/markers.rst,548,versionadded,version,DROPPED,False,False,True,.. versionadded: 2.2.2
+pytest-dev/pytest,doc/en/example/simple.rst,501,versionadded,version,DROPPED,False,False,True,.. versionadded: 2.2
+pytest-dev/pytest,doc/en/how-to/failures.rst,74,versionadded,version,DROPPED,False,False,True,.. versionadded: 2.4.0
+pytest-dev/pytest,doc/en/how-to/fixtures.rst,977,note,admonition,DROPPED,False,False,True,.. note:
+pytest-dev/pytest,doc/en/how-to/fixtures.rst,1086,note,admonition,DROPPED,False,False,True,.. note:
+pytest-dev/pytest,doc/en/how-to/output.rst,565,versionadded,version,DROPPED,False,False,True,.. versionadded: 8.4
+pytest-dev/pytest,src/_pytest/fixtures.py,2590,versionadded,version,DROPPED,False,False,False,.. versionadded: 9.1
+pallets/jinja,src/jinja2/sandbox.py,105,code-block,code,DROPPED,False,False,False,.. code-block: python
+pallets/click,tests/test_termui.py,679,warning,admonition,RAW_TEXT,False,True,False,..warning::
+celery/celery,celery/app/utils.py,71,seealso,admonition,DROPPED,False,False,False,.. seealso:
+celery/celery,celery/canvas.py,3,seealso,admonition,DROPPED,False,False,False,.. seealso:
+celery/celery,docs/userguide/configuration.rst,398,versionadded,version,DROPPED,False,False,True,.. versionadded: 4.0
+celery/celery,docs/userguide/configuration.rst,883,warning,admonition,DROPPED,False,False,True,.. warning:
+celery/celery,docs/userguide/tasks.rst,2019,versionadded,version,DROPPED,False,False,False,.. versionadded::4.2
+astropy/astropy,astropy/modeling/fitting.py,1450,warning,admonition,DROPPED,False,False,False,.. warning:
+astropy/astropy,docs/development/links.inc,7,note,admonition,DROPPED,False,False,False,.. NOTE: reST targets are
+astropy/astropy,docs/nddata/nddata.rst,211,note,admonition,RAW_TEXT,False,False,False,..note::
+networkx/networkx,networkx/algorithms/community/bipartitions.py,182,math,code,RAW_TEXT,False,False,False,..math::
+networkx/networkx,networkx/linalg/laplacianmatrix.py,264,math,code,RAW_TEXT,False,False,False,..math::
+sympy/sympy,doc/src/modules/polys/solvers.rst,9,module,structure,DROPPED,False,False,False,.. module::sympy.polys.solvers
+sympy/sympy,doc/src/modules/solvers/ode.rst,11,module,structure,DROPPED,False,False,False,.. module::sympy.solvers.ode
+sympy/sympy,doc/src/modules/solvers/pde.rst,6,module,structure,DROPPED,False,False,False,.. module::sympy.solvers.pde
+python-pillow/Pillow,docs/handbook/text-anchors.rst,47,only,structure,DROPPED,False,False,True,.. only: comment
+scikit-image/scikit-image,doc/source/gitwash/git_links.inc,7,note,admonition,DROPPED,False,False,False,.. NOTE: reST targets are
+statsmodels/statsmodels,docs/source/gmm_techn1.rst.TXT,33,math,code,RAW_TEXT,False,False,False,..math: max_{\theta) g(theta)' W g(theta)  (1)
+statsmodels/statsmodels,statsmodels/tsa/seasonal/_seasonal.py,135,deprecated,version,DROPPED,False,False,False,.. deprecated: 0.14
+dask/dask,docs/source/futures.rst,116,note,admonition,DROPPED,False,False,True,.. note: See `this page <https://docs.dask.org/en/latest/graphs.html>`_ for
+dask/dask,docs/source/futures.rst,477,note,admonition,DROPPED,False,False,True,.. note: These are advanced features and are rarely necessary in the common case.
+tornadoweb/tornado,tornado/auth.py,447,testcode,code,RAW_TEXT,False,False,False,..testcode::
+tornadoweb/tornado,tornado/auth.py,466,versionchanged,version,DROPPED,False,False,False,.. versionchanged::: 6.0
+tornadoweb/tornado,tornado/routing.py,657,versionchanged,version,DROPPED,False,False,False,.. versionchanged: 4.5
+tornadoweb/tornado,tornado/web.py,1419,versionchanged,version,DROPPED,False,False,False,.. versionchanged: 4.1
+pyca/cryptography,docs/hazmat/primitives/aead.rst,712,note,admonition,DROPPED,False,False,True,.. note:
+pyca/cryptography,docs/x509/reference.rst,1677,versionadded,version,DROPPED,False,False,True,.. versionadded: 37.0.0
+python/mypy,mypyc/doc/getting_started.rst,184,note,admonition,DROPPED,False,False,True,.. note:
+python-trio/trio,docs/source/reference-lowlevel.rst,289,note,admonition,DROPPED,False,False,True,.. note: this is a function and not `autofunction` since it relies on cffi
+agronholm/anyio,docs/testing.rst,174,warning,admonition,DROPPED,False,False,False,".. warning:::: It is possible in rare cases, particularly in local development, that"
+psycopg/psycopg,docs/api/objects.rst,284,note,admonition,DROPPED,False,False,True,.. note: `:members:` doesn't seem to work currently. Nested class problem?
+sqlalchemy/alembic,alembic/op.pyi,1411,versionadded,version,DROPPED,False,False,False,.. versionadded: 1.11
+sqlalchemy/alembic,alembic/operations/base.py,566,versionadded,version,DROPPED,False,False,False,.. versionadded: 1.11
+pylint-dev/pylint,pylint/lint/pylinter.py,486,note,admonition,RAW_TEXT,False,False,False,..note::
+bokeh/bokeh,docs/bokeh/source/docs/reference/model.rst,12,autoclass,autodoc,DROPPED,False,False,True,.. autoclass: Model
+bokeh/bokeh,src/bokeh/models/callbacks.py,132,code-block,code,DROPPED,False,False,False,.. code-block: javascript
+bokeh/bokeh,src/bokeh/models/callbacks.py,155,code-block,code,DROPPED,False,False,False,.. code-block: javascript
+bokeh/bokeh,src/bokeh/models/callbacks.py,176,code-block,code,DROPPED,False,False,False,.. code-block: python
+bokeh/bokeh,src/bokeh/models/callbacks.py,209,code-block,code,DROPPED,False,False,False,.. code-block: python
+bokeh/bokeh,src/bokeh/models/renderers/glyph_renderer.py,107,note,admonition,DROPPED,False,False,False,.. note:
+bokeh/bokeh,src/bokeh/models/tickers.py,165,note,admonition,DROPPED,False,False,False,.. note:
+bokeh/bokeh,src/bokeh/util/paths.py,63,note,admonition,DROPPED,False,False,False,.. note:
+bokeh/bokeh,src/bokeh/util/paths.py,97,note,admonition,DROPPED,False,False,False,.. note:
+cython/cython,docs/src/userguide/faq.rst,496,highlight,code,DROPPED,False,False,False,.. highlight::bash
+cython/cython,docs/src/userguide/faq.rst,804,highlight,code,DROPPED,False,False,False,.. highlight::diff
+pymc-devs/pymc,pymc/distributions/multivariate.py,2487,math,code,DROPPED,False,False,False,.. math:
+python-babel/babel,babel/messages/frontend.py,1447,warning,admonition,DROPPED,False,False,False,".. warning: As of this version of Babel, this is a private API subject to changes."
+python-babel/babel,babel/support.py,8,note,admonition,DROPPED,False,False,False,.. note: the code in this module is not used by Babel itself
+pygments/pygments,pygments/lexers/clean.py,23,versionadded,version,DROPPED,False,False,False,.. versionadded: 2.2
+pygments/pygments,pygments/lexers/javascript.py,1252,versionadded,version,DROPPED,False,False,False,.. versionadded: 2.1
+pygments/pygments,pygments/lexers/javascript.py,1548,versionadded,version,DROPPED,False,False,False,.. versionadded: 2.10
+pygments/pygments,pygments/lexers/promql.py,25,versionadded,version,DROPPED,False,False,False,.. versionadded: 2.7
+pygments/pygments,pygments/lexers/savi.py,36,versionadded,version,DROPPED,False,False,False,.. versionadded: 2.10
+paramiko/paramiko,sites/docs/api/config.rst,18,note,admonition,DROPPED,False,False,True,.. note:;
+Pylons/pyramid,src/pyramid/config/views.py,765,versionadded,version,DROPPED,False,False,False,.. versionadded: 1.4a1
+Pylons/pyramid,src/pyramid/config/views.py,767,versionchanged,version,DROPPED,False,False,False,.. versionchanged: 1.7
+Pylons/pyramid,src/pyramid/config/views.py,1783,versionchanged,version,DROPPED,False,False,False,.. versionchanged: 1.10
+Pylons/pyramid,src/pyramid/csrf.py,108,versionchanged,version,DROPPED,False,False,False,.. versionchanged: 1.10
+Pylons/pyramid,src/pyramid/session.py,117,warning,admonition,DROPPED,False,False,False,.. warning:
+Pylons/pyramid,src/pyramid/session.py,183,versionadded,version,DROPPED,False,False,False,.. versionadded: 1.5a3
+Pylons/pyramid,src/pyramid/session.py,185,versionchanged,version,DROPPED,False,False,False,.. versionchanged: 1.10
+Pylons/pyramid,src/pyramid/session.py,462,versionadded,version,DROPPED,False,False,False,.. versionadded: 1.5a3
+Pylons/pyramid,src/pyramid/session.py,464,versionchanged,version,DROPPED,False,False,False,.. versionchanged: 1.10
+Pylons/pyramid,src/pyramid/session.py,468,versionchanged,version,DROPPED,False,False,False,.. versionchanged: 2.0
+Pylons/pyramid,src/pyramid/view.py,161,note,admonition,DROPPED,False,False,False,".. note: :class:`pyramid.view.view_config` is also importable, for"
+mongodb/mongo-python-driver,bson/errors.py,45,versionadded,version,RAW_TEXT,False,False,False,"..versionadded:: 4.16"""""""
+mongodb/mongo-python-driver,gridfs/asynchronous/grid_file.py,326,code-block,code,DROPPED,False,False,False,.. code-block: python
+mongodb/mongo-python-driver,gridfs/synchronous/grid_file.py,324,code-block,code,DROPPED,False,False,False,.. code-block: python
+mongodb/mongo-python-driver,pymongo/asynchronous/encryption.py,700,code-block,code,DROPPED,False,False,False,.. code-block: python
+mongodb/mongo-python-driver,pymongo/collation.py,155,versionadded,version,DROPPED,False,False,False,.. versionadded: 3.4
+mongodb/mongo-python-driver,pymongo/synchronous/encryption.py,693,code-block,code,DROPPED,False,False,False,.. code-block: python

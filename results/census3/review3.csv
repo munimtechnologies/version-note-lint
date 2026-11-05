@@ -1,0 +1,41 @@
+project,path,line,directive,family,cls,in_literal,test_path,sphinx_lint,text
+statsmodels/statsmodels,docs/source/gmm_techn1.rst.TXT,33,math,code,RAW_TEXT,False,False,False,..math: max_{\theta) g(theta)' W g(theta)  (1)
+scipy/scipy,doc/source/tutorial/interpolate/1D.rst,525,class,structure,DROPPED,False,False,False,..             class :obj:`interpolate.interp1d` with
+sqlalchemy/sqlalchemy,lib/sqlalchemy/engine/create.py,469,note,admonition,DROPPED,False,False,False,".. note: don't use 30.0 above, it seems to break with the :param tag"
+sympy/sympy,doc/src/modules/solvers/ode.rst,11,module,structure,DROPPED,False,False,False,.. module::sympy.solvers.ode
+pylint-dev/pylint,pylint/lint/pylinter.py,486,note,admonition,RAW_TEXT,False,False,False,..note::
+sqlalchemy/sqlalchemy,doc/build/core/pooling.rst,207,note,admonition,DROPPED,False,False,True,.. note: next paragraph + example should match mssql/base.py example
+scikit-learn/scikit-learn,sklearn/decomposition/_kernel_pca.py,517,note,admonition,DROPPED,False,False,False,.. note:
+pyca/cryptography,docs/hazmat/primitives/aead.rst,712,note,admonition,DROPPED,False,False,True,.. note:
+numpy/numpy,doc/source/reference/module_structure.rst,16,note,admonition,DROPPED,False,False,False,.. Note: there is no single doc page that covers all of the main namespace as
+sqlalchemy/sqlalchemy,doc/build/dialects/mysql.rst,69,note,admonition,DROPPED,False,False,True,".. note: where :noindex: is used, indicates a type that is not redefined"
+numpy/numpy,doc/source/reference/c-api/types-and-structures.rst,1653,code-block,code,DROPPED,False,False,False,.. code-block::C
+scipy/scipy,doc/source/tutorial/fft.rst,206,note,admonition,DROPPED,False,False,False,.. Note: The provided samples were determined by:
+numpy/numpy,doc/source/reference/arrays.ndarray.rst,179,seealso,admonition,DROPPED,False,False,True,.. seealso: :ref:`Indexing <arrays.ndarray.indexing>`_
+scipy/scipy,doc/source/tutorial/interpolate/1D.rst,557,class,structure,DROPPED,False,False,False,..             class :obj:`interpolate.interp1d` with
+sphinx-doc/sphinx,doc/usage/domains/index.rst,90,note,admonition,DROPPED,False,False,False,".. NOTE: The following all seem unmaintained, last released 2018 or earlier."
+dask/dask,docs/source/futures.rst,477,note,admonition,DROPPED,False,False,True,.. note: These are advanced features and are rarely necessary in the common case.
+sqlalchemy/sqlalchemy,doc/build/dialects/postgresql.rst,457,note,admonition,DROPPED,False,False,True,".. note: where :noindex: is used, indicates a type that is not redefined"
+psycopg/psycopg,docs/api/objects.rst,284,note,admonition,DROPPED,False,False,True,.. note: `:members:` doesn't seem to work currently. Nested class problem?
+networkx/networkx,networkx/linalg/laplacianmatrix.py,264,math,code,RAW_TEXT,False,False,False,..math::
+cython/cython,docs/src/userguide/faq.rst,804,highlight,code,DROPPED,False,False,False,.. highlight::diff
+sqlalchemy/sqlalchemy,doc/build/orm/queryguide/relationships.rst,538,note,admonition,DROPPED,False,False,False,".. NOTE:  wow, this section. super long. it's not really reference material"
+paramiko/paramiko,sites/docs/api/config.rst,18,note,admonition,DROPPED,False,False,True,.. note:;
+numpy/numpy,doc/source/numpy_2_0_migration_guide.rst,226,code-block,code,DROPPED,False,False,False,.. code-block::C
+bokeh/bokeh,docs/bokeh/source/docs/reference/model.rst,12,autoclass,autodoc,DROPPED,False,False,True,.. autoclass: Model
+sympy/sympy,doc/src/modules/solvers/pde.rst,6,module,structure,DROPPED,False,False,False,.. module::sympy.solvers.pde
+Pylons/pyramid,src/pyramid/view.py,161,note,admonition,DROPPED,False,False,False,".. note: :class:`pyramid.view.view_config` is also importable, for"
+bokeh/bokeh,src/bokeh/util/paths.py,97,note,admonition,DROPPED,False,False,False,.. note:
+sqlalchemy/sqlalchemy,doc/build/changelog/changelog_21.rst,2744,seealso,admonition,RAW_TEXT,False,False,False,..seealso::
+scipy/scipy,doc/source/tutorial/fft.rst,167,note,admonition,DROPPED,False,False,False,".. Note: Source for the ""N > 500"" statement is the `scipy.signal.fftconvolve` docstr."
+django/django,docs/ref/contrib/flatpages.txt,279,attribute,structure,DROPPED,False,False,False,.. attribute: registration_required
+python-babel/babel,babel/support.py,8,note,admonition,DROPPED,False,False,False,.. note: the code in this module is not used by Babel itself
+networkx/networkx,networkx/algorithms/community/bipartitions.py,182,math,code,RAW_TEXT,False,False,False,..math::
+bokeh/bokeh,src/bokeh/models/callbacks.py,132,code-block,code,DROPPED,False,False,False,.. code-block: javascript
+bokeh/bokeh,src/bokeh/models/tickers.py,165,note,admonition,DROPPED,False,False,False,.. note:
+scikit-image/scikit-image,doc/source/gitwash/git_links.inc,7,note,admonition,DROPPED,False,False,False,.. NOTE: reST targets are
+python/mypy,mypyc/doc/getting_started.rst,184,note,admonition,DROPPED,False,False,True,.. note:
+matplotlib/matplotlib,doc/project/credits.rst,1,note,admonition,DROPPED,False,False,False,.. Note: This file is auto-generated using generate_credits.py
+agronholm/anyio,docs/testing.rst,174,warning,admonition,DROPPED,False,False,False,".. warning:::: It is possible in rare cases, particularly in local development, that"
+sqlalchemy/sqlalchemy,doc/build/dialects/mssql.rst,59,note,admonition,DROPPED,False,False,True,".. note: where :noindex: is used, indicates a type that is not redefined"
+bokeh/bokeh,src/bokeh/models/callbacks.py,155,code-block,code,DROPPED,False,False,False,.. code-block: javascript

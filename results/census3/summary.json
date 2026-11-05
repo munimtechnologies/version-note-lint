@@ -1,0 +1,1075 @@
+{
+ "P1_held": true,
+ "P2_held": true,
+ "P2_overlap_share": 0.2361111111111111,
+ "P2_sphinx_lint_overlap": 17,
+ "P3": "graded by hand on review3.csv (GRADING-3.md)",
+ "P4_code_family_rows": 18,
+ "P4_held": true,
+ "P5_held": true,
+ "P5_nonversion_rate": {
+  "bad": 72,
+  "markers": 65244,
+  "rate": 0.001103549751701306
+ },
+ "P5_version_rate": {
+  "bad": 42,
+  "markers": 17151,
+  "rate": 0.0024488368025188034
+ },
+ "finished_at": "2026-11-05T07:33:28Z",
+ "gate": {
+  "G1_projects_read_ge_90pct": true,
+  "G2_pyramid_session_version_dropped_found": true
+ },
+ "gate_held": true,
+ "log": [
+  "python/cpython: 3580 files, 20611 markers",
+  "django/django: 3679 files, 6522 markers",
+  "numpy/numpy: 1473 files, 2251 markers",
+  "scipy/scipy: 1698 files, 2956 markers",
+  "pandas-dev/pandas: 1548 files, 498 markers",
+  "matplotlib/matplotlib: 1470 files, 1532 markers",
+  "scikit-learn/scikit-learn: 1320 files, 2537 markers",
+  "sphinx-doc/sphinx: 1358 files, 3049 markers",
+  "sqlalchemy/sqlalchemy: 883 files, 5435 markers",
+  "pytest-dev/pytest: 565 files, 1402 markers",
+  "pypa/pip: 793 files, 455 markers",
+  "pypa/setuptools: 412 files, 613 markers",
+  "python-attrs/attrs: 69 files, 334 markers",
+  "pallets/flask: 172 files, 727 markers",
+  "pallets/werkzeug: 188 files, 882 markers",
+  "pallets/jinja: 76 files, 393 markers",
+  "pallets/click: 92 files, 226 markers",
+  "celery/celery: 757 files, 2309 markers",
+  "astropy/astropy: 1473 files, 1212 markers",
+  "networkx/networkx: 899 files, 871 markers",
+  "pydata/xarray: 289 files, 290 markers",
+  "sympy/sympy: 1926 files, 3893 markers",
+  "ipython/ipython: 401 files, 332 markers",
+  "python-pillow/Pillow: 475 files, 754 markers",
+  "scikit-image/scikit-image: 1142 files, 288 markers",
+  "statsmodels/statsmodels: 1587 files, 1252 markers",
+  "dask/dask: 471 files, 1020 markers",
+  "tornadoweb/tornado: 240 files, 794 markers",
+  "pyca/cryptography: 542 files, 2326 markers",
+  "python/mypy: 1392 files, 805 markers",
+  "twisted/twisted: 1273 files, 769 markers",
+  "aio-libs/aiohttp: 356 files, 1175 markers",
+  "psf/requests: 55 files, 76 markers",
+  "urllib3/urllib3: 134 files, 164 markers",
+  "python-trio/trio: 182 files, 424 markers",
+  "agronholm/anyio: 220 files, 440 markers",
+  "psycopg/psycopg: 332 files, 849 markers",
+  "sqlalchemy/alembic: 149 files, 303 markers",
+  "pypa/packaging: 101 files, 230 markers",
+  "tox-dev/tox: 286 files, 528 markers",
+  "pylint-dev/pylint: 3651 files, 418 markers",
+  "marshmallow-code/marshmallow: 78 files, 315 markers",
+  "bokeh/bokeh: 1770 files, 1723 markers",
+  "numba/numba: 927 files, 776 markers",
+  "cython/cython: 2378 files, 976 markers",
+  "h5py/h5py: 243 files, 559 markers",
+  "shapely/shapely: 190 files, 376 markers",
+  "pymc-devs/pymc: 316 files, 479 markers",
+  "python-babel/babel: 138 files, 212 markers",
+  "pygments/pygments: 1281 files, 273 markers",
+  "paramiko/paramiko: 96 files, 223 markers",
+  "Pylons/pyramid: 737 files, 2112 markers",
+  "falconry/falcon: 348 files, 700 markers",
+  "benoitc/gunicorn: 482 files, 77 markers",
+  "redis/redis-py: 362 files, 153 markers",
+  "mongodb/mongo-python-driver: 526 files, 1497 markers",
+  "celery/kombu: 316 files, 792 markers",
+  "pyca/pyopenssl: 33 files, 85 markers",
+  "prompt-toolkit/python-prompt-toolkit: 328 files, 287 markers",
+  "Textualize/rich: 278 files, 69 markers"
+ ],
+ "markers_by_family": {
+  "admonition": 10695,
+  "autodoc": 10087,
+  "code": 21419,
+  "structure": 24187,
+  "version": 17241
+ },
+ "markers_total": 83629,
+ "nonversion_by_directive": {
+  "attention": 1,
+  "attribute": 1,
+  "autoclass": 1,
+  "class": 2,
+  "code-block": 11,
+  "highlight": 2,
+  "important": 1,
+  "math": 4,
+  "module": 3,
+  "note": 35,
+  "only": 1,
+  "seealso": 4,
+  "testcode": 1,
+  "warning": 5
+ },
+ "nonversion_projects": [
+  "Pylons/pyramid",
+  "agronholm/anyio",
+  "astropy/astropy",
+  "bokeh/bokeh",
+  "celery/celery",
+  "cython/cython",
+  "dask/dask",
+  "django/django",
+  "matplotlib/matplotlib",
+  "mongodb/mongo-python-driver",
+  "networkx/networkx",
+  "numpy/numpy",
+  "pallets/jinja",
+  "paramiko/paramiko",
+  "psycopg/psycopg",
+  "pyca/cryptography",
+  "pylint-dev/pylint",
+  "pymc-devs/pymc",
+  "pytest-dev/pytest",
+  "python-babel/babel",
+  "python-pillow/Pillow",
+  "python-trio/trio",
+  "python/cpython",
+  "python/mypy",
+  "scikit-image/scikit-image",
+  "scikit-learn/scikit-learn",
+  "scipy/scipy",
+  "sphinx-doc/sphinx",
+  "sqlalchemy/sqlalchemy",
+  "statsmodels/statsmodels",
+  "sympy/sympy",
+  "tornadoweb/tornado"
+ ],
+ "nonversion_rows": 72,
+ "per_project": [
+  {
+   "commit": "aaaf61ca62f0924d7b5134c2d237313d8be2215c",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 1664,
+    "code/OK": 1513,
+    "structure/OK": 11026,
+    "version/DROPPED": 3,
+    "version/OK": 6403,
+    "version/OK_lit": 1
+   },
+   "files": 3580,
+   "markers": 20611,
+   "ok": true,
+   "project": "python/cpython"
+  },
+  {
+   "commit": "ca3f31b255dee9d046eba41cbdb2adcfc4297588",
+   "counts": {
+    "admonition/OK": 842,
+    "code/OK": 2043,
+    "code/OK_lit": 1,
+    "structure/DROPPED": 1,
+    "structure/OK": 3444,
+    "structure/OK_lit": 7,
+    "version/OK": 180,
+    "version/OK_lit": 4
+   },
+   "files": 3679,
+   "markers": 6522,
+   "ok": true,
+   "project": "django/django"
+  },
+  {
+   "commit": "ee35f3baaf51a3c08072f0bf366dd85dfa6c26c3",
+   "counts": {
+    "admonition/DROPPED": 4,
+    "admonition/OK": 484,
+    "admonition/RAW_TEXT": 1,
+    "autodoc/OK": 360,
+    "code/DROPPED": 2,
+    "code/OK": 741,
+    "structure/OK": 412,
+    "version/OK": 246,
+    "version/OK_lit": 1
+   },
+   "files": 1473,
+   "markers": 2251,
+   "ok": true,
+   "project": "numpy/numpy"
+  },
+  {
+   "commit": "f890ba56482979d6d4e3f7c4abfd3f1c2a3d3a05",
+   "counts": {
+    "admonition/DROPPED": 4,
+    "admonition/OK": 179,
+    "admonition/RAW_TEXT": 1,
+    "autodoc/OK": 310,
+    "code/OK": 1596,
+    "code/OK_lit": 2,
+    "structure/DROPPED": 2,
+    "structure/OK": 265,
+    "version/OK": 596,
+    "version/RAW_TEXT": 1
+   },
+   "files": 1698,
+   "markers": 2956,
+   "ok": true,
+   "project": "scipy/scipy"
+  },
+  {
+   "commit": "249a3e4845e574629d8f8aa6f1461fb47b02b02d",
+   "counts": {
+    "admonition/OK": 89,
+    "code/OK": 20,
+    "structure/OK": 35,
+    "version/OK": 354
+   },
+   "files": 1548,
+   "markers": 498,
+   "ok": true,
+   "project": "pandas-dev/pandas"
+  },
+  {
+   "commit": "f9db3d8c59a8453601ad81514f9c295d6ec050e1",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 277,
+    "admonition/OK_lit": 1,
+    "autodoc/OK": 339,
+    "autodoc/OK_lit": 1,
+    "code/OK": 250,
+    "code/OK_lit": 2,
+    "structure/OK": 484,
+    "structure/OK_lit": 1,
+    "version/OK": 172,
+    "version/OK_lit": 4
+   },
+   "files": 1470,
+   "markers": 1532,
+   "ok": true,
+   "project": "matplotlib/matplotlib"
+  },
+  {
+   "commit": "3c5e5effc5e11309209234507cb768c5fb38971b",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 210,
+    "autodoc/OK": 19,
+    "code/OK": 473,
+    "structure/OK": 828,
+    "structure/OK_lit": 1,
+    "version/OK": 1001,
+    "version/OK_lit": 2,
+    "version/RAW_TEXT": 2
+   },
+   "files": 1320,
+   "markers": 2537,
+   "ok": true,
+   "project": "scikit-learn/scikit-learn"
+  },
+  {
+   "commit": "035a07c32c3241fd3356f4d827800c1f88525272",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 294,
+    "admonition/OK_lit": 9,
+    "autodoc/OK": 320,
+    "autodoc/OK_lit": 44,
+    "code/OK": 570,
+    "code/OK_lit": 37,
+    "structure/OK": 716,
+    "structure/OK_lit": 39,
+    "version/DROPPED": 1,
+    "version/OK": 1013,
+    "version/OK_lit": 5
+   },
+   "files": 1358,
+   "markers": 3049,
+   "ok": true,
+   "project": "sphinx-doc/sphinx"
+  },
+  {
+   "commit": "9a77da02712315f27baa6952be289631e60c65d5",
+   "counts": {
+    "admonition/DROPPED": 6,
+    "admonition/OK": 2420,
+    "admonition/RAW_TEXT": 1,
+    "autodoc/OK": 800,
+    "code/OK": 917,
+    "structure/OK": 168,
+    "version/OK": 1119,
+    "version/RAW_TEXT": 4
+   },
+   "files": 883,
+   "markers": 5435,
+   "ok": true,
+   "project": "sqlalchemy/sqlalchemy"
+  },
+  {
+   "commit": "08017d9ada4c72a7b6a78f7873c238070e24c982",
+   "counts": {
+    "admonition/DROPPED": 2,
+    "admonition/OK": 152,
+    "admonition/OK_lit": 2,
+    "autodoc/OK": 151,
+    "code/OK": 824,
+    "code/OK_lit": 7,
+    "structure/OK": 66,
+    "version/DROPPED": 6,
+    "version/OK": 191,
+    "version/OK_lit": 1
+   },
+   "files": 565,
+   "markers": 1402,
+   "ok": true,
+   "project": "pytest-dev/pytest"
+  },
+  {
+   "commit": "a4a111d0642fc9a46e0e4bddbe929ac731c734e6",
+   "counts": {
+    "admonition/OK": 63,
+    "autodoc/OK": 12,
+    "code/OK": 216,
+    "structure/OK": 30,
+    "version/OK": 134
+   },
+   "files": 793,
+   "markers": 455,
+   "ok": true,
+   "project": "pypa/pip"
+  },
+  {
+   "commit": "049ae8e3083514378aedb352a2017fbc306bd126",
+   "counts": {
+    "admonition/OK": 115,
+    "autodoc/OK": 5,
+    "code/OK": 184,
+    "structure/OK": 177,
+    "version/OK": 132
+   },
+   "files": 412,
+   "markers": 613,
+   "ok": true,
+   "project": "pypa/setuptools"
+  },
+  {
+   "commit": "9d9f94a043de7fc4012459853a4ed597a5577855",
+   "counts": {
+    "admonition/OK": 31,
+    "autodoc/OK": 68,
+    "code/OK": 36,
+    "structure/OK": 37,
+    "version/OK": 162
+   },
+   "files": 69,
+   "markers": 334,
+   "ok": true,
+   "project": "python-attrs/attrs"
+  },
+  {
+   "commit": "49943b5a94413a530761350f04e896f76e8d620e",
+   "counts": {
+    "admonition/OK": 28,
+    "autodoc/OK": 53,
+    "code/OK": 317,
+    "structure/OK": 59,
+    "version/OK": 270
+   },
+   "files": 172,
+   "markers": 727,
+   "ok": true,
+   "project": "pallets/flask"
+  },
+  {
+   "commit": "2adaad1ab68312fa46efb07ff072b15b720e2444",
+   "counts": {
+    "admonition/OK": 7,
+    "autodoc/OK": 170,
+    "code/OK": 86,
+    "structure/OK": 34,
+    "version/OK": 585
+   },
+   "files": 188,
+   "markers": 882,
+   "ok": true,
+   "project": "pallets/werkzeug"
+  },
+  {
+   "commit": "5ef70112a1ff19c05324ff889dd30405b1002044",
+   "counts": {
+    "admonition/OK": 13,
+    "autodoc/OK": 62,
+    "code/DROPPED": 1,
+    "code/OK": 127,
+    "structure/OK": 70,
+    "version/OK": 120
+   },
+   "files": 76,
+   "markers": 393,
+   "ok": true,
+   "project": "pallets/jinja"
+  },
+  {
+   "commit": "2247b35ea1c47c727d7a06e51fa280e12a863ff6",
+   "counts": {
+    "admonition/OK": 15,
+    "admonition/RAW_TEXT": 1,
+    "code/OK": 8,
+    "version/OK": 202
+   },
+   "files": 92,
+   "markers": 226,
+   "ok": true,
+   "project": "pallets/click"
+  },
+  {
+   "commit": "2fe0ead077408eae9c1ff883b9d995792fbc0170",
+   "counts": {
+    "admonition/DROPPED": 3,
+    "admonition/OK": 245,
+    "autodoc/OK": 222,
+    "code/OK": 1130,
+    "code/OK_lit": 1,
+    "structure/OK": 520,
+    "version/DROPPED": 2,
+    "version/OK": 186
+   },
+   "files": 757,
+   "markers": 2309,
+   "ok": true,
+   "project": "celery/celery"
+  },
+  {
+   "commit": "6709fdc4db1c99663b550d088190cffac6be90f8",
+   "counts": {
+    "admonition/DROPPED": 2,
+    "admonition/OK": 348,
+    "admonition/RAW_TEXT": 1,
+    "autodoc/OK": 70,
+    "code/OK": 406,
+    "structure/OK": 195,
+    "version/OK": 190
+   },
+   "files": 1473,
+   "markers": 1212,
+   "ok": true,
+   "project": "astropy/astropy"
+  },
+  {
+   "commit": "e59d71890e745effb3724dc4b5620b23f92e0ee3",
+   "counts": {
+    "admonition/OK": 45,
+    "autodoc/OK": 525,
+    "code/OK": 158,
+    "code/OK_lit": 1,
+    "code/RAW_TEXT": 2,
+    "structure/OK": 134,
+    "version/OK": 6
+   },
+   "files": 899,
+   "markers": 871,
+   "ok": true,
+   "project": "networkx/networkx"
+  },
+  {
+   "commit": "26e76f663383c7691ab4578c819a2470d0155a57",
+   "counts": {
+    "admonition/OK": 43,
+    "autodoc/OK": 95,
+    "code/OK": 85,
+    "structure/OK": 57,
+    "version/OK": 10
+   },
+   "files": 289,
+   "markers": 290,
+   "ok": true,
+   "project": "pydata/xarray"
+  },
+  {
+   "commit": "fd810f89b86e6e8efa2e9cef034a4391aadbf026",
+   "counts": {
+    "admonition/OK": 78,
+    "autodoc/OK": 2360,
+    "autodoc/OK_lit": 14,
+    "code/OK": 985,
+    "code/OK_lit": 1,
+    "structure/DROPPED": 3,
+    "structure/OK": 374,
+    "structure/OK_lit": 6,
+    "version/OK": 71,
+    "version/OK_lit": 1
+   },
+   "files": 1926,
+   "markers": 3893,
+   "ok": true,
+   "project": "sympy/sympy"
+  },
+  {
+   "commit": "cf63afd11e2fca4eb4645e9d5b4a712f3549f632",
+   "counts": {
+    "admonition/OK": 70,
+    "autodoc/OK": 4,
+    "code/OK": 121,
+    "structure/OK": 92,
+    "version/OK": 45
+   },
+   "files": 401,
+   "markers": 332,
+   "ok": true,
+   "project": "ipython/ipython"
+  },
+  {
+   "commit": "22e8391a8eb578c8a4a87934c6d1ff21610d3996",
+   "counts": {
+    "admonition/OK": 75,
+    "autodoc/OK": 289,
+    "code/OK": 8,
+    "structure/DROPPED": 1,
+    "structure/OK": 88,
+    "version/OK": 293
+   },
+   "files": 475,
+   "markers": 754,
+   "ok": true,
+   "project": "python-pillow/Pillow"
+  },
+  {
+   "commit": "e098ebbb684788df60b42e3bde112c014d0d9517",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 27,
+    "autodoc/OK": 3,
+    "code/OK": 62,
+    "code/OK_lit": 1,
+    "structure/OK": 57,
+    "version/OK": 137
+   },
+   "files": 1142,
+   "markers": 288,
+   "ok": true,
+   "project": "scikit-image/scikit-image"
+  },
+  {
+   "commit": "87c9660178805a75ef32ac8a198825c88ceb848f",
+   "counts": {
+    "admonition/OK": 23,
+    "autodoc/OK": 245,
+    "code/OK": 453,
+    "code/RAW_TEXT": 1,
+    "structure/OK": 360,
+    "version/DROPPED": 1,
+    "version/OK": 169
+   },
+   "files": 1587,
+   "markers": 1252,
+   "ok": true,
+   "project": "statsmodels/statsmodels"
+  },
+  {
+   "commit": "6ce3740fa79bfa051ecc74c3641f8c6a46dfdc30",
+   "counts": {
+    "admonition/DROPPED": 2,
+    "admonition/OK": 79,
+    "autodoc/OK": 198,
+    "code/OK": 542,
+    "structure/OK": 190,
+    "version/OK": 9
+   },
+   "files": 471,
+   "markers": 1020,
+   "ok": true,
+   "project": "dask/dask"
+  },
+  {
+   "commit": "57deb98e96e13c5887ddde237c266fa4872ae46d",
+   "counts": {
+    "admonition/OK": 18,
+    "autodoc/OK": 272,
+    "code/OK": 70,
+    "code/RAW_TEXT": 1,
+    "structure/OK": 47,
+    "version/DROPPED": 3,
+    "version/OK": 383
+   },
+   "files": 240,
+   "markers": 794,
+   "ok": true,
+   "project": "tornadoweb/tornado"
+  },
+  {
+   "commit": "1c141e91050ed8b361148536f25e929a360c9164",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 106,
+    "code/OK": 288,
+    "structure/OK": 1379,
+    "version/DROPPED": 1,
+    "version/OK": 551
+   },
+   "files": 542,
+   "markers": 2326,
+   "ok": true,
+   "project": "pyca/cryptography"
+  },
+  {
+   "commit": "879da562a4bba1ff8023799afad195bc364b730a",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 115,
+    "code/OK": 615,
+    "structure/OK": 74
+   },
+   "files": 1392,
+   "markers": 805,
+   "ok": true,
+   "project": "python/mypy"
+  },
+  {
+   "commit": "932da96cc46831261e87776a811c290f7c98b779",
+   "counts": {
+    "admonition/OK": 49,
+    "code/OK": 685,
+    "structure/OK": 33,
+    "version/OK": 2
+   },
+   "files": 1273,
+   "markers": 769,
+   "ok": true,
+   "project": "twisted/twisted"
+  },
+  {
+   "commit": "2091405f174e13b85ea725aa9bd458414552e949",
+   "counts": {
+    "admonition/OK": 127,
+    "code/OK": 59,
+    "structure/OK": 762,
+    "version/OK": 227
+   },
+   "files": 356,
+   "markers": 1175,
+   "ok": true,
+   "project": "aio-libs/aiohttp"
+  },
+  {
+   "commit": "3c7baaa05ab4aa49cc819ce3a819d260de19c157",
+   "counts": {
+    "admonition/OK": 24,
+    "autodoc/OK": 35,
+    "structure/OK": 14,
+    "version/OK": 3
+   },
+   "files": 55,
+   "markers": 76,
+   "ok": true,
+   "project": "psf/requests"
+  },
+  {
+   "commit": "c5347bbd39203d68d7b0e3ffb83ced3e3b4b9109",
+   "counts": {
+    "admonition/OK": 18,
+    "autodoc/OK": 32,
+    "code/OK": 100,
+    "structure/OK": 8,
+    "version/OK": 6
+   },
+   "files": 134,
+   "markers": 164,
+   "ok": true,
+   "project": "urllib3/urllib3"
+  },
+  {
+   "commit": "3cb6acd0d611b3c589e45a4d08a86327bb5b90d5",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 37,
+    "autodoc/OK": 187,
+    "code/OK": 125,
+    "structure/OK": 70,
+    "version/OK": 4
+   },
+   "files": 182,
+   "markers": 424,
+   "ok": true,
+   "project": "python-trio/trio"
+  },
+  {
+   "commit": "d99adac886b85e95a74ae95c30b963a1a7d31cba",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 78,
+    "autodoc/OK": 185,
+    "code/OK": 102,
+    "structure/OK": 22,
+    "version/OK": 52
+   },
+   "files": 220,
+   "markers": 440,
+   "ok": true,
+   "project": "agronholm/anyio"
+  },
+  {
+   "commit": "b9e2f3535777cffb679ce3e6dc7f2b758dc9ac06",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 159,
+    "autodoc/OK": 374,
+    "code/OK": 112,
+    "structure/OK": 110,
+    "version/OK": 93
+   },
+   "files": 332,
+   "markers": 849,
+   "ok": true,
+   "project": "psycopg/psycopg"
+  },
+  {
+   "commit": "1bcba93ea0473c69b48e704f842ca96e9e5348f5",
+   "counts": {
+    "admonition/OK": 181,
+    "autodoc/OK": 26,
+    "code/OK": 6,
+    "structure/OK": 6,
+    "version/DROPPED": 2,
+    "version/OK": 82
+   },
+   "files": 149,
+   "markers": 303,
+   "ok": true,
+   "project": "sqlalchemy/alembic"
+  },
+  {
+   "commit": "791d983e0ae29c10168c8064c89eed9532ee18e6",
+   "counts": {
+    "admonition/OK": 6,
+    "autodoc/OK": 46,
+    "code/OK": 43,
+    "structure/OK": 15,
+    "version/OK": 120
+   },
+   "files": 101,
+   "markers": 230,
+   "ok": true,
+   "project": "pypa/packaging"
+  },
+  {
+   "commit": "11a2097bdf1535ffc802303d0cddca50e6c9624f",
+   "counts": {
+    "admonition/OK": 36,
+    "autodoc/OK": 55,
+    "code/OK": 367,
+    "structure/OK": 30,
+    "version/OK": 40
+   },
+   "files": 286,
+   "markers": 528,
+   "ok": true,
+   "project": "tox-dev/tox"
+  },
+  {
+   "commit": "79c8d0c9813b0c402c3890778c6d777b162dde8b",
+   "counts": {
+    "admonition/OK": 14,
+    "admonition/RAW_TEXT": 1,
+    "code/OK": 205,
+    "structure/OK": 197,
+    "structure/OK_lit": 1
+   },
+   "files": 3651,
+   "markers": 418,
+   "ok": true,
+   "project": "pylint-dev/pylint"
+  },
+  {
+   "commit": "a38b7f6842042e65fd1a485ed152ca99f87880c0",
+   "counts": {
+    "admonition/OK": 37,
+    "autodoc/OK": 13,
+    "code/OK": 176,
+    "structure/OK": 22,
+    "version/OK": 67
+   },
+   "files": 78,
+   "markers": 315,
+   "ok": true,
+   "project": "marshmallow-code/marshmallow"
+  },
+  {
+   "commit": "bc07eeb96a23161823057948b8a3b8031020c75c",
+   "counts": {
+    "admonition/DROPPED": 4,
+    "admonition/OK": 415,
+    "autodoc/DROPPED": 1,
+    "autodoc/OK": 286,
+    "code/DROPPED": 4,
+    "code/OK": 883,
+    "structure/OK": 115,
+    "structure/OK_lit": 1,
+    "version/OK": 14
+   },
+   "files": 1770,
+   "markers": 1723,
+   "ok": true,
+   "project": "bokeh/bokeh"
+  },
+  {
+   "commit": "8e309086c316d4a930bf1ead9a25a45a59c4ee9e",
+   "counts": {
+    "admonition/OK": 156,
+    "autodoc/OK": 116,
+    "code/OK": 295,
+    "structure/OK": 208,
+    "version/OK": 1
+   },
+   "files": 927,
+   "markers": 776,
+   "ok": true,
+   "project": "numba/numba"
+  },
+  {
+   "commit": "7b3aab3633c00a8e05f2e2ff13c044bd91ccb1ed",
+   "counts": {
+    "admonition/OK": 104,
+    "admonition/OK_lit": 1,
+    "autodoc/OK": 19,
+    "code/DROPPED": 2,
+    "code/OK": 775,
+    "structure/OK": 74,
+    "version/OK": 1
+   },
+   "files": 2378,
+   "markers": 976,
+   "ok": true,
+   "project": "cython/cython"
+  },
+  {
+   "commit": "f5918a1cf81cfac6656c77083f0d255fd985f625",
+   "counts": {
+    "admonition/OK": 37,
+    "autodoc/OK": 118,
+    "code/OK": 7,
+    "structure/OK": 375,
+    "version/OK": 22
+   },
+   "files": 243,
+   "markers": 559,
+   "ok": true,
+   "project": "h5py/h5py"
+  },
+  {
+   "commit": "b71009ac771db03444f4e1c0ac0f1eb909feb414",
+   "counts": {
+    "admonition/OK": 21,
+    "autodoc/OK": 16,
+    "code/OK": 166,
+    "structure/OK": 111,
+    "version/OK": 62
+   },
+   "files": 190,
+   "markers": 376,
+   "ok": true,
+   "project": "shapely/shapely"
+  },
+  {
+   "commit": "af565aa28a06eae09ef2e49a097e2bbbce84b221",
+   "counts": {
+    "admonition/OK": 29,
+    "autodoc/OK": 80,
+    "code/DROPPED": 1,
+    "code/OK": 303,
+    "structure/OK": 63,
+    "version/OK": 3
+   },
+   "files": 316,
+   "markers": 479,
+   "ok": true,
+   "project": "pymc-devs/pymc"
+  },
+  {
+   "commit": "0c6f048bc06520f1caafa118a79c62200a5f1276",
+   "counts": {
+    "admonition/DROPPED": 2,
+    "admonition/OK": 31,
+    "autodoc/OK": 88,
+    "code/OK": 44,
+    "structure/OK": 23,
+    "version/OK": 24
+   },
+   "files": 138,
+   "markers": 212,
+   "ok": true,
+   "project": "python-babel/babel"
+  },
+  {
+   "commit": "156d85fdd18d34427fe893527e71da91dcfb0eb5",
+   "counts": {
+    "admonition/OK": 11,
+    "admonition/OK_lit": 1,
+    "autodoc/OK": 41,
+    "code/OK": 90,
+    "structure/OK": 24,
+    "version/DROPPED": 5,
+    "version/OK": 101
+   },
+   "files": 1281,
+   "markers": 273,
+   "ok": true,
+   "project": "pygments/pygments"
+  },
+  {
+   "commit": "0e9ccb91e0f9a68f2587233d523ad7fe46e730fe",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 80,
+    "autodoc/OK": 27,
+    "structure/OK": 6,
+    "version/OK": 109
+   },
+   "files": 96,
+   "markers": 223,
+   "ok": true,
+   "project": "paramiko/paramiko"
+  },
+  {
+   "commit": "948c6bac3b8ec5160e85e3bf9653c767c978ed94",
+   "counts": {
+    "admonition/DROPPED": 2,
+    "admonition/OK": 327,
+    "autodoc/OK": 276,
+    "code/OK": 1169,
+    "structure/OK": 110,
+    "version/DROPPED": 9,
+    "version/OK": 219
+   },
+   "files": 737,
+   "markers": 2112,
+   "ok": true,
+   "project": "Pylons/pyramid"
+  },
+  {
+   "commit": "9ab54c17e6935af612a158dd2b1d0a3218b94b00",
+   "counts": {
+    "admonition/OK": 120,
+    "autodoc/OK": 181,
+    "code/OK": 326,
+    "structure/OK": 15,
+    "version/OK": 58
+   },
+   "files": 348,
+   "markers": 700,
+   "ok": true,
+   "project": "falconry/falcon"
+  },
+  {
+   "commit": "afc7d2fd5dd9f1de455b1be6c10044030c0adf8e",
+   "counts": {
+    "admonition/OK": 13,
+    "code/OK": 3,
+    "version/OK": 61
+   },
+   "files": 482,
+   "markers": 77,
+   "ok": true,
+   "project": "benoitc/gunicorn"
+  },
+  {
+   "commit": "be1af1d14a9594853adccc9948befdcb8a646762",
+   "counts": {
+    "admonition/OK": 8,
+    "autodoc/OK": 26,
+    "code/OK": 102,
+    "structure/OK": 17
+   },
+   "files": 362,
+   "markers": 153,
+   "ok": true,
+   "project": "redis/redis-py"
+  },
+  {
+   "commit": "d2bafa70dbbcf1614a948d995f2699e3ee7b24be",
+   "counts": {
+    "admonition/OK": 287,
+    "admonition/OK_lit": 1,
+    "autodoc/OK": 327,
+    "code/DROPPED": 4,
+    "code/OK": 38,
+    "structure/OK": 13,
+    "version/DROPPED": 1,
+    "version/OK": 825,
+    "version/RAW_TEXT": 1
+   },
+   "files": 526,
+   "markers": 1497,
+   "ok": true,
+   "project": "mongodb/mongo-python-driver"
+  },
+  {
+   "commit": "7dca15a60587ec712f904f846bdc4b0ad2143cf4",
+   "counts": {
+    "admonition/OK": 23,
+    "autodoc/OK": 384,
+    "code/OK": 182,
+    "structure/OK": 186,
+    "version/OK": 17
+   },
+   "files": 316,
+   "markers": 792,
+   "ok": true,
+   "project": "celery/kombu"
+  },
+  {
+   "commit": "1487da3773b0db3977353c9e379ad74124002c43",
+   "counts": {
+    "admonition/OK": 6,
+    "autodoc/OK": 20,
+    "code/OK": 2,
+    "structure/OK": 20,
+    "version/OK": 37
+   },
+   "files": 33,
+   "markers": 85,
+   "ok": true,
+   "project": "pyca/pyopenssl"
+  },
+  {
+   "commit": "6c7fbc1080dd331a031a2be1f96d4ebc0421f7ea",
+   "counts": {
+    "admonition/OK": 24,
+    "autodoc/OK": 81,
+    "code/OK": 138,
+    "structure/OK": 44
+   },
+   "files": 328,
+   "markers": 287,
+   "ok": true,
+   "project": "prompt-toolkit/python-prompt-toolkit"
+  },
+  {
+   "commit": "9d8f9a372cc5916fd4781fec207ced7ddac2f08f",
+   "counts": {
+    "admonition/OK": 19,
+    "autodoc/OK": 36,
+    "code/OK": 1,
+    "structure/OK": 13
+   },
+   "files": 278,
+   "markers": 69,
+   "ok": true,
+   "project": "Textualize/rich"
+  }
+ ],
+ "projects_listed": 60,
+ "projects_read": 60,
+ "reported_by_family_class": {
+  "admonition/DROPPED": 42,
+  "admonition/RAW_TEXT": 4,
+  "autodoc/DROPPED": 1,
+  "autodoc/RAW_TEXT": 0,
+  "code/DROPPED": 14,
+  "code/RAW_TEXT": 4,
+  "structure/DROPPED": 7,
+  "structure/RAW_TEXT": 0,
+  "version/DROPPED": 34,
+  "version/RAW_TEXT": 8
+ },
+ "review3_size": 40,
+ "seconds": 74.8
+}

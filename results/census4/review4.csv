@@ -1,0 +1,41 @@
+project,path,line,directive,family,cls,comment_like,in_literal,test_path,sphinx_lint,text
+saltstack/salt,salt/renderers/mako.py,8,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/modules/solaris_system.py,55,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/modules/nxos.py,238,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/runners/fileserver.py,257,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,doc/topics/proxyminion/index.rst,658,code,code,DROPPED,False,False,False,True,.. code: python::
+pyinstaller/pyinstaller,doc/development/testing.rst,47,note,admonition,DROPPED,False,False,False,True,.. note:
+kivy/kivy,kivy/uix/behaviors/focus.py,193,warning,admonition,DROPPED,False,False,False,False,.. warning:
+kivy/kivy,kivy/uix/behaviors/focus.py,291,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/modules/win_wua.py,869,note,admonition,DROPPED,False,False,False,False,.. note:
+kivy/kivy,kivy/core/audio_output/audio_ffpyplayer.py,32,note,admonition,RAW_TEXT,False,False,False,False,..Note::
+saltstack/salt,salt/states/win_iis.py,53,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/renderers/msgpack.py,9,note,admonition,DROPPED,False,False,False,False,.. note:
+pyinstaller/pyinstaller,doc/development/pull-requests.rst,7,highlight,code,DROPPED,False,False,False,True,.. highlight: bash
+saltstack/salt,salt/modules/nxos.py,253,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/modules/nxos.py,298,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/states/git.py,450,note,admonition,DROPPED,False,False,False,False,.. note:
+dask/distributed,distributed/shuffle/_scheduler_plugin.py,271,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/win_iis.py,657,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/win_iis.py,571,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/modules/nxos.py,215,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/utils/templates.py,708,code-block,code,DROPPED,False,False,False,False,.. code-block:
+pyinstaller/pyinstaller,doc/development/commit-messages.rst,230,highlight,code,DROPPED,False,False,False,True,.. highlight: bash
+kivy/kivy,kivy/uix/behaviors/focus.py,332,note,admonition,DROPPED,False,False,False,False,.. note:
+pyqtgraph/pyqtgraph,pyqtgraph/arraytoline.py,302,code-block,code,DROPPED,False,False,False,False,.. code-block:
+kivy/kivy,kivy/core/image/img_ffpyplayer.py,39,note,admonition,DROPPED,False,False,False,False,.. note:
+kivy/kivy,kivy/core/video/video_ffpyplayer.py,32,note,admonition,RAW_TEXT,False,False,False,False,..Note::
+saltstack/salt,doc/topics/development/changelog.rst,83,code-block,code,DROPPED,False,False,False,True,.. code-block: bash
+saltstack/salt,salt/states/file.py,5922,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/modules/nxos.py,123,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,noxfile.py,1915,code-block,code,DROPPED,False,False,False,False,.. code-block: shell
+PyCQA/bandit,bandit/plugins/general_hardcoded_tmp.py,34,code-block,code,DROPPED,False,False,False,False,.. code-block: none
+saltstack/salt,salt/states/win_iis.py,313,note,admonition,DROPPED,False,False,False,False,.. note:
+pyvista/pyvista,pyvista/plotting/colors.py,1701,note,admonition,DROPPED,False,False,False,False,.. note:
+kivy/kivy,kivy/uix/settings.py,958,warning,admonition,DROPPED,False,False,False,False,.. warning:
+saltstack/salt,salt/states/win_iis.py,374,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/runners/fileserver.py,63,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/modules/nxos.py,149,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+pyinstaller/pyinstaller,doc/CHANGES.rst,4,note,admonition,DROPPED,False,False,False,False,.. NOTE:
+saltstack/salt,salt/states/win_iis.py,139,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/win_iis.py,245,note,admonition,DROPPED,False,False,False,False,.. note:

@@ -1,0 +1,21 @@
+project,path,line,directive,family,cls,comment_like,in_literal,test_path,sphinx_lint,text
+mne-tools/mne-python,doc/_includes/channel_interpolation.rst,9,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+nipy/nibabel,doc/source/links_names.txt,11,note,admonition,DROPPED,True,False,False,False,.. NOTE: reST targets are
+saltstack/salt,salt/engines/webhook.py,48,note,admonition,DROPPED,True,False,False,False,".. note: For making an unsigned key, use the following command"
+mne-tools/mne-python,doc/_includes/units.rst,24,note,admonition,DROPPED,True,False,False,False,.. NOTE: this is a target for :end-before: units-end-of-list
+mne-tools/mne-python,doc/_includes/channel_types.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/forward.rst,10,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/channel_types.rst,13,note,admonition,DROPPED,True,False,False,False,".. NOTE: In the future, this table should be automatically synchronized with"
+mne-tools/mne-python,doc/_includes/channel_types.rst,25,note,admonition,DROPPED,True,False,False,False,".. NOTE: To include only the table, here's a different target for :start-after:"
+mne-tools/mne-python,doc/changes/v1.5.rst,10,note,admonition,DROPPED,True,False,False,False,.. NOTE: changes from first-time contributors should be added to the TOP of
+mne-tools/mne-python,doc/_includes/data_formats.rst,26,note,admonition,DROPPED,True,False,False,False,".. NOTE: To include only the table, here's a different target for :start-after:"
+mne-tools/mne-python,doc/_includes/ssp.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/data_formats.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/changes/v1.5.rst,5,note,admonition,DROPPED,True,False,False,False,".. NOTE: there are 3 separate sections for changes, based on type:"
+mne-tools/mne-python,doc/_includes/ged.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+kivy/kivy,kivy/tools/kviewer.py,19,note,admonition,DROPPED,True,False,False,False,.. note: This scripts uses watchdog to listen for file changes. To install
+dask/distributed,docs/source/asynchronous.rst,67,note,admonition,DROPPED,True,False,False,True,.. note: Blocking operations like the ``.compute()`` method aren't ok to use in
+mne-tools/mne-python,doc/_includes/precision.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/manual/io.rst and
+mne-tools/mne-python,doc/_includes/memory.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/links.inc,7,note,admonition,DROPPED,True,False,False,False,.. NOTE: reST targets are
+mne-tools/mne-python,doc/_includes/bem_model.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.

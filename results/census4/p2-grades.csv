@@ -1,0 +1,41 @@
+project,path,line,directive,text,grade,checked,evidence
+saltstack/salt,salt/renderers/mako.py,8,code-block,.. code-block: bash,D1,live,"salt.renderers.mako page says 'To install Mako, do the following:' and then nothing; 'salt-pip install mako' is hidden"
+saltstack/salt,salt/modules/solaris_system.py,55,note,.. note:,D1,live,"init(): the runlevel explanation (0 halt, 1 admin, s/S single-user, 5 poweroff, 6 reboot) is missing; the page has no Note at all"
+saltstack/salt,salt/modules/nxos.py,238,code-block,.. code-block: bash,D1,live,"one of 7 one-colon CLI examples in nxos.py (ping, check_password, get_roles, get_user, grains, grains_refresh, sendline); none of the 7 functions shows its example on the live page, while check_role and show_ver do"
+saltstack/salt,salt/runners/fileserver.py,257,note,.. note:,D1,live,"dir_list(): note that the runner runs apart from the master and may not see config changes is missing; page has only 3 notes (clear_file_list_cache __runner__, empty_dir_list, lock)"
+saltstack/salt,doc/topics/proxyminion/index.rst,658,code,.. code: python::,D1,source,"'.. code: python::' is not a directive (whitespace in the name), so the whole rest_sample grains module example below it is a comment; sphinx-lint also flags it"
+pyinstaller/pyinstaller,doc/development/testing.rst,47,note,.. note:,D1,source,"note 'This section is still incomplete. For now please refer to the tests/README file.' is hidden; sphinx-lint also flags it"
+kivy/kivy,kivy/uix/behaviors/focus.py,193,warning,.. warning:,D1,live,"FocusBehavior.keyboard: warning that an assigned keyboard must not be released while a widget holds it is missing on the Kivy 2.3.1 page"
+kivy/kivy,kivy/uix/behaviors/focus.py,291,note,.. note:,D1,live,"focus_next: note that setting it also sets focus_previous on the target is missing on the 2.3.1 page"
+saltstack/salt,salt/modules/win_wua.py,869,note,.. note:,D1,source,"set_wu_settings(): note that since Windows 10 / Server 2016 (UUP) Windows Update settings are read-only is hidden"
+kivy/kivy,kivy/core/audio_output/audio_ffpyplayer.py,32,note,..Note::,D2,live,"ffpyplayer audio provider module is not in the built API docs (api-kivy.core.audio has no provider pages); no reader loss on the site"
+saltstack/salt,salt/states/win_iis.py,53,note,.. note:,D1,live,"one of 8 one-colon notes in win_iis.py (7 sampled); only set_app's two-colon note shows on the live page; deployed, create_binding, create_cert_binding, remove_cert_binding, create_apppool, create_app, create_vdir show none"
+saltstack/salt,salt/renderers/msgpack.py,9,note,.. note:,D1,live,"render(): note 'This renderer is NOT intended for use in creating sls files by hand ...' is missing on the live page"
+pyinstaller/pyinstaller,doc/development/pull-requests.rst,7,highlight,.. highlight: bash,D2,source,"the comment hides nothing (no indented text under it); the later :: blocks lose bash highlighting only, no content lost"
+saltstack/salt,salt/modules/nxos.py,253,code-block,.. code-block: bash,D1,live,see nxos.py row 238
+saltstack/salt,salt/modules/nxos.py,298,code-block,.. code-block: bash,D1,live,see nxos.py row 238
+saltstack/salt,salt/states/git.py,450,note,.. note:,D1,source,"git.latest bare parameter: 'Setting this option to True is incompatible with the rev argument.' is hidden"
+dask/distributed,distributed/shuffle/_scheduler_plugin.py,271,note,.. note:,D2,source,"private method _calculate_worker_for of a private module; not in the built docs"
+saltstack/salt,salt/states/win_iis.py,657,note,.. note:,D1,live,see win_iis.py row 53
+saltstack/salt,salt/states/win_iis.py,571,note,.. note:,D1,live,see win_iis.py row 53
+saltstack/salt,salt/modules/nxos.py,215,code-block,.. code-block: bash,D1,live,see nxos.py row 238
+saltstack/salt,salt/utils/templates.py,708,code-block,.. code-block:,D2,not checked live,"salt.utils.templates has no API page that we know of in the built docs; treated as not built (could be D3)"
+pyinstaller/pyinstaller,doc/development/commit-messages.rst,230,highlight,.. highlight: bash,D2,source,"nothing indented under it; only highlighting of the later Example:: block changes"
+kivy/kivy,kivy/uix/behaviors/focus.py,332,note,.. note:,D1,live,"focus_previous: mirror note of focus_next missing on the 2.3.1 page (scanner line 332 = body; marker at 331)"
+pyqtgraph/pyqtgraph,pyqtgraph/arraytoline.py,302,code-block,.. code-block:,D1,live,"arrayToQPath Notes: 'The memory format is as follows' is followed by nothing on the live functions page; the numVerts/x/y/cStart layout is hidden"
+kivy/kivy,kivy/core/image/img_ffpyplayer.py,39,note,.. note:,D2,not checked live,"ffpyplayer image provider; provider modules are not in Kivy's API docs (same as the audio provider, checked live)"
+kivy/kivy,kivy/core/video/video_ffpyplayer.py,32,note,..Note::,D2,not checked live,"ffpyplayer video provider; not in Kivy's API docs (same as the audio provider)"
+saltstack/salt,doc/topics/development/changelog.rst,83,code-block,.. code-block: bash,D1,source,"'Installing tools' section: the 'python -m pip install -r requirements/static/ci/py3.10/tools.txt' command is hidden; the next block on line 91 uses two colons; sphinx-lint also flags it"
+saltstack/salt,salt/states/file.py,5922,note,.. note:,D1,source,"file.replace show_changes: note that it keeps both file versions in memory to build the diff (slow on large files) is hidden"
+saltstack/salt,salt/modules/nxos.py,123,code-block,.. code-block: bash,D1,live,see nxos.py row 238
+saltstack/salt,noxfile.py,1915,code-block,.. code-block: shell,D2,source,"noxfile.py is not part of the built docs"
+PyCQA/bandit,bandit/plugins/general_hardcoded_tmp.py,34,code-block,.. code-block: none,D1,live,"B108 page: 'Example:' heading with an empty body; the '>> Issue: Probable insecure usage of temp file/directory.' sample output is hidden"
+saltstack/salt,salt/states/win_iis.py,313,note,.. note:,D1,live,see win_iis.py row 53
+pyvista/pyvista,pyvista/plotting/colors.py,1701,note,.. note:,D1,live,"pyvista.Color: note 'The internally used representation is an integer RGBA sequence ...' missing between 'See Named Colors' and 'Parameters'"
+kivy/kivy,kivy/uix/settings.py,958,warning,.. warning:,D1,source,"Settings class, on_config_change event: warning that the value is always str regardless of setting type is hidden"
+saltstack/salt,salt/states/win_iis.py,374,note,.. note:,D1,live,see win_iis.py row 53
+saltstack/salt,salt/runners/fileserver.py,63,note,.. note:,D1,live,"clear_file_list_cache(): note on fileserver_list_cache_time is missing (see row 257)"
+saltstack/salt,salt/modules/nxos.py,149,code-block,.. code-block: bash,D1,live,see nxos.py row 238
+pyinstaller/pyinstaller,doc/CHANGES.rst,4,note,.. NOTE:,D2,source,"deliberate editor comment ('You should NOT be adding new change log entries to this file'); not meant for readers"
+saltstack/salt,salt/states/win_iis.py,139,note,.. note:,D1,live,see win_iis.py row 53
+saltstack/salt,salt/states/win_iis.py,245,note,.. note:,D1,live,see win_iis.py row 53

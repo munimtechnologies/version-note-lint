@@ -1,0 +1,21 @@
+project,path,line,text,grade,checked,evidence
+mne-tools/mne-python,doc/_includes/channel_interpolation.rst,9,.. NOTE: part of this file is included in doc/overview/implementation.rst.,D2,marker line only,deliberate editor comment (judged from the marker text itself)
+nipy/nibabel,doc/source/links_names.txt,11,.. NOTE: reST targets are,D2,marker line only,deliberate editor comment (judged from the marker text itself) in a link-target include file
+saltstack/salt,salt/engines/webhook.py,48,".. note: For making an unsigned key, use the following command",D1,live,"start(): the tls.create_self_signed_cert command is hidden; the salt.engines.webhook page shows neither the sentence nor the command"
+mne-tools/mne-python,doc/_includes/units.rst,24,.. NOTE: this is a target for :end-before: units-end-of-list,D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/_includes/channel_types.rst,6,.. NOTE: part of this file is included in doc/overview/implementation.rst.,D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/_includes/forward.rst,10,.. NOTE: part of this file is included in doc/overview/implementation.rst.,D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/_includes/channel_types.rst,13,".. NOTE: In the future, this table should be automatically synchronized with",D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/_includes/channel_types.rst,25,".. NOTE: To include only the table, here's a different target for :start-after:",D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/changes/v1.5.rst,10,.. NOTE: changes from first-time contributors should be added to the TOP of,D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/_includes/data_formats.rst,26,".. NOTE: To include only the table, here's a different target for :start-after:",D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/_includes/ssp.rst,6,.. NOTE: part of this file is included in doc/overview/implementation.rst.,D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/_includes/data_formats.rst,6,.. NOTE: part of this file is included in doc/overview/implementation.rst.,D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/changes/v1.5.rst,5,".. NOTE: there are 3 separate sections for changes, based on type:",D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/_includes/ged.rst,6,.. NOTE: part of this file is included in doc/overview/implementation.rst.,D2,marker line only,deliberate editor comment (judged from the marker text itself)
+kivy/kivy,kivy/tools/kviewer.py,19,.. note: This scripts uses watchdog to listen for file changes. To install,D2,live,"reads like a slip (the watchdog install hint is meant for readers), but kivy.tools.kviewer has no page in Kivy's API docs (404), so no reader loss on the site"
+dask/distributed,docs/source/asynchronous.rst,67,.. note: Blocking operations like the ``.compute()`` method aren't ok to use in,D1,live,"the sentence is missing from distributed.dask.org/en/latest/asynchronous.html; sphinx-lint also flags it"
+mne-tools/mne-python,doc/_includes/precision.rst,6,.. NOTE: part of this file is included in doc/manual/io.rst and,D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/_includes/memory.rst,6,.. NOTE: part of this file is included in doc/overview/implementation.rst.,D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/links.inc,7,.. NOTE: reST targets are,D2,marker line only,deliberate editor comment (judged from the marker text itself)
+mne-tools/mne-python,doc/_includes/bem_model.rst,6,.. NOTE: part of this file is included in doc/overview/implementation.rst.,D2,marker line only,deliberate editor comment (judged from the marker text itself)

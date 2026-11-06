@@ -1,0 +1,115 @@
+project,path,line,directive,family,cls,comment_like,in_literal,test_path,sphinx_lint,text
+saltstack/salt,doc/ref/states/ordering.rst,27,versionadded,version,DROPPED,False,False,False,True,.. versionadded: 0.17.0
+saltstack/salt,doc/topics/development/changelog.rst,83,code-block,code,DROPPED,False,False,False,True,.. code-block: bash
+saltstack/salt,doc/topics/development/releasenotes.rst,40,code-block,code,DROPPED,False,False,False,True,.. code-block: bash
+saltstack/salt,doc/topics/proxyminion/index.rst,658,code,code,DROPPED,False,False,False,True,.. code: python::
+saltstack/salt,doc/topics/tutorials/jinja_to_execution_module.rst,7,versionadded,version,DROPPED,False,False,False,True,.. versionadded: 2016.???
+saltstack/salt,noxfile.py,1915,code-block,code,DROPPED,False,False,False,False,.. code-block: shell
+saltstack/salt,salt/engines/webhook.py,23,note,admonition,DROPPED,True,False,False,False,".. note: This is really meant to be used on the minion, because salt-api"
+saltstack/salt,salt/engines/webhook.py,48,note,admonition,DROPPED,True,False,False,False,".. note: For making an unsigned key, use the following command"
+saltstack/salt,salt/modules/aixpkg.py,249,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/modules/nxos.py,123,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/modules/nxos.py,149,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/modules/nxos.py,215,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/modules/nxos.py,238,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/modules/nxos.py,253,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/modules/nxos.py,268,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/modules/nxos.py,298,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/modules/solaris_system.py,55,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/modules/win_wua.py,869,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/renderers/mako.py,8,code-block,code,DROPPED,False,False,False,False,.. code-block: bash
+saltstack/salt,salt/renderers/msgpack.py,9,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/runners/fileserver.py,63,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/runners/fileserver.py,165,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/runners/fileserver.py,211,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/runners/fileserver.py,257,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/at.py,172,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/file.py,5922,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/git.py,450,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/win_iis.py,39,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/win_iis.py,53,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/win_iis.py,139,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/win_iis.py,245,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/win_iis.py,313,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/win_iis.py,374,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/win_iis.py,571,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/states/win_iis.py,657,note,admonition,DROPPED,False,False,False,False,.. note:
+saltstack/salt,salt/utils/templates.py,708,code-block,code,DROPPED,False,False,False,False,.. code-block:
+jupyter/jupyter_client,jupyter_client/manager.py,375,version-added,version,DROPPED,False,False,False,False,.. version-added: 8.5
+jupyter/jupyter_client,jupyter_client/multikernelmanager.py,224,version-added,version,DROPPED,False,False,False,False,.. version-added: 8.5
+pyqtgraph/pyqtgraph,pyqtgraph/arraytoline.py,302,code-block,code,DROPPED,False,False,False,False,.. code-block:
+PyCQA/bandit,bandit/plugins/general_hardcoded_tmp.py,34,code-block,code,DROPPED,False,False,False,False,.. code-block: none
+pyinstaller/pyinstaller,doc/CHANGES.rst,4,note,admonition,DROPPED,False,False,False,False,.. NOTE:
+pyinstaller/pyinstaller,doc/development/commit-messages.rst,230,highlight,code,DROPPED,False,False,False,True,.. highlight: bash
+pyinstaller/pyinstaller,doc/development/pull-requests.rst,7,highlight,code,DROPPED,False,False,False,True,.. highlight: bash
+pyinstaller/pyinstaller,doc/development/testing.rst,47,note,admonition,DROPPED,False,False,False,True,.. note:
+kivy/kivy,kivy/core/audio_output/audio_ffpyplayer.py,32,note,admonition,RAW_TEXT,False,False,False,False,..Note::
+kivy/kivy,kivy/core/image/img_ffpyplayer.py,39,note,admonition,DROPPED,False,False,False,False,.. note:
+kivy/kivy,kivy/core/text/__init__.py,797,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 1.10.1
+kivy/kivy,kivy/core/video/video_ffpyplayer.py,32,note,admonition,RAW_TEXT,False,False,False,False,..Note::
+kivy/kivy,kivy/logger.py,85,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 2.2.0
+kivy/kivy,kivy/tools/kviewer.py,19,note,admonition,DROPPED,True,False,False,False,.. note: This scripts uses watchdog to listen for file changes. To install
+kivy/kivy,kivy/uix/behaviors/focus.py,193,warning,admonition,DROPPED,False,False,False,False,.. warning:
+kivy/kivy,kivy/uix/behaviors/focus.py,291,note,admonition,DROPPED,False,False,False,False,.. note:
+kivy/kivy,kivy/uix/behaviors/focus.py,332,note,admonition,DROPPED,False,False,False,False,.. note:
+kivy/kivy,kivy/uix/rst.py,532,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 1.9.0
+kivy/kivy,kivy/uix/screenmanager.py,1137,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 1.8.0
+kivy/kivy,kivy/uix/settings.py,958,warning,admonition,DROPPED,False,False,False,False,.. warning:
+pygame/pygame,docs/reST/ref/pixelarray.rst,123,versionadded,version,DROPPED,False,False,False,True,.. versionadded: 1.8.0
+pygame/pygame,docs/reST/ref/pixelarray.rst,126,versionadded,version,DROPPED,False,False,False,True,.. versionadded: 1.8.1
+pygame/pygame,docs/reST/ref/pixelarray.rst,130,versionadded,version,DROPPED,False,False,False,True,.. versionadded: 1.9.2
+pygame/pygame,docs/reST/ref/pixelarray.rst,134,versionadded,version,DROPPED,False,False,False,True,.. versionadded: 1.9.2
+pygame/pygame,docs/reST/ref/pixelarray.rst,137,versionadded,version,DROPPED,False,False,False,True,.. versionadded: 1.9.4
+scrapy/scrapy,sep/sep-020.rst,9,note,admonition,DROPPED,True,False,False,True,.. note: this SEP has been migrated from the Wiki.
+python-telegram-bot/python-telegram-bot,src/telegram/_bot.py,5794,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 20.1
+python-telegram-bot/python-telegram-bot,src/telegram/_bot.py,5986,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 20.1
+python-telegram-bot/python-telegram-bot,src/telegram/_telegramobject.py,816,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 20.0
+python-telegram-bot/python-telegram-bot,src/telegram/_telegramobject.py,832,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 20.0
+python-telegram-bot/python-telegram-bot,src/telegram/ext/_contexttypes.py,73,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 20.0
+Rapptz/discord.py,discord/appinfo.py,362,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 2.5
+Rapptz/discord.py,discord/appinfo.py,366,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 2.5
+Rapptz/discord.py,discord/appinfo.py,371,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 2.5
+Rapptz/discord.py,discord/appinfo.py,375,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 2.5
+Rapptz/discord.py,discord/client.py,968,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 2.0
+Rapptz/discord.py,discord/ext/commands/converter.py,638,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 2.0
+Rapptz/discord.py,discord/invite.py,301,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 2.4
+pallets-eco/wtforms,docs/fields.rst,512,code-block,code,DROPPED,False,False,False,True,.. code-block: jinja
+dask/distributed,distributed/shuffle/_scheduler_plugin.py,271,note,admonition,DROPPED,False,False,False,False,.. note:
+dask/distributed,docs/source/asynchronous.rst,67,note,admonition,DROPPED,True,False,False,True,.. note: Blocking operations like the ``.compute()`` method aren't ok to use in
+pyvista/pyvista,pyvista/core/filters/image_data.py,291,versionadded,version,DROPPED,False,False,False,False,.. versionadded::0.46
+pyvista/pyvista,pyvista/core/pointset.py,587,deprecated,version,RAW_TEXT,False,False,False,False,..deprecated:: 0.47
+pyvista/pyvista,pyvista/plotting/colors.py,1701,note,admonition,DROPPED,False,False,False,False,.. note:
+mne-tools/mne-python,doc/_includes/bem_model.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/channel_interpolation.rst,9,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/channel_types.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/channel_types.rst,13,note,admonition,DROPPED,True,False,False,False,".. NOTE: In the future, this table should be automatically synchronized with"
+mne-tools/mne-python,doc/_includes/channel_types.rst,25,note,admonition,DROPPED,True,False,False,False,".. NOTE: To include only the table, here's a different target for :start-after:"
+mne-tools/mne-python,doc/_includes/data_formats.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/data_formats.rst,26,note,admonition,DROPPED,True,False,False,False,".. NOTE: To include only the table, here's a different target for :start-after:"
+mne-tools/mne-python,doc/_includes/dig_formats.rst,8,note,admonition,DROPPED,True,False,False,False,".. NOTE: If you want to link to this content, link to :ref:`dig-formats`"
+mne-tools/mne-python,doc/_includes/dig_formats.rst,19,note,admonition,DROPPED,True,False,False,False,".. NOTE: To include only the table, here's a different target for :start-after:"
+mne-tools/mne-python,doc/_includes/forward.rst,10,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/ged.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/inverse.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/memory.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/morph.rst,15,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/precision.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/manual/io.rst and
+mne-tools/mne-python,doc/_includes/ssp.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/overview/implementation.rst.
+mne-tools/mne-python,doc/_includes/units.rst,6,note,admonition,DROPPED,True,False,False,False,.. NOTE: part of this file is included in doc/manual/io.rst and
+mne-tools/mne-python,doc/_includes/units.rst,24,note,admonition,DROPPED,True,False,False,False,.. NOTE: this is a target for :end-before: units-end-of-list
+mne-tools/mne-python,doc/changes/v1.5.rst,1,note,admonition,DROPPED,True,False,False,False,.. NOTE: we use cross-references to highlight new functions and classes.
+mne-tools/mne-python,doc/changes/v1.5.rst,5,note,admonition,DROPPED,True,False,False,False,".. NOTE: there are 3 separate sections for changes, based on type:"
+mne-tools/mne-python,doc/changes/v1.5.rst,10,note,admonition,DROPPED,True,False,False,False,.. NOTE: changes from first-time contributors should be added to the TOP of
+mne-tools/mne-python,doc/development/index.rst,4,note,admonition,DROPPED,True,False,False,False,".. NOTE: this first section (up until ""overview of contribution process"") is"
+mne-tools/mne-python,doc/links.inc,7,note,admonition,DROPPED,True,False,False,False,.. NOTE: reST targets are
+mne-tools/mne-python,mne/_freesurfer.py,809,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 0.24
+mne-tools/mne-python,mne/_freesurfer.py,890,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 0.24
+nipy/nibabel,doc/source/gitwash/git_links.inc,7,note,admonition,DROPPED,True,False,False,False,.. NOTE: reST targets are
+nipy/nibabel,doc/source/links_names.txt,11,note,admonition,DROPPED,True,False,False,False,.. NOTE: reST targets are
+mpmath/mpmath,mpmath/function_docs.py,2553,note,admonition,DROPPED,False,False,False,False,.. note :
+zeromq/pyzmq,zmq/backend/cython/_zmq.py,1096,versionadded,version,DROPPED,False,False,False,False,.. versionadded: libzmq-3.2
+zeromq/pyzmq,zmq/backend/cython/_zmq.py,1097,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 14.0
+zeromq/pyzmq,zmq/constants.py,429,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 23
+zeromq/pyzmq,zmq/constants.py,441,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 23
+gevent/gevent,src/gevent/queue.py,265,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 1.1b3
+gevent/gevent,src/gevent/queue.py,276,versionadded,version,DROPPED,False,False,False,False,.. versionadded: 1.1b3

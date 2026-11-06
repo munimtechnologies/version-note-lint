@@ -1,0 +1,991 @@
+{
+ "P1_held": true,
+ "P2": "graded by hand on review4.csv (GRADING-4.md)",
+ "P3": "graded by hand on review4-comment.csv (GRADING-4.md)",
+ "P4_comment_like_share": 0.379746835443038,
+ "P4_held": true,
+ "P5_held": true,
+ "P5_nonversion_default_rate": {
+  "bad": 49,
+  "markers": 32931,
+  "rate": 0.0014879596732562024
+ },
+ "P5_version_rate": {
+  "bad": 35,
+  "markers": 13677,
+  "rate": 0.002559040725305257
+ },
+ "comment_like_rows": 30,
+ "default_by_directive": {
+  "code": 1,
+  "code-block": 15,
+  "highlight": 2,
+  "note": 29,
+  "warning": 2
+ },
+ "default_projects": [
+  "PyCQA/bandit",
+  "dask/distributed",
+  "kivy/kivy",
+  "mpmath/mpmath",
+  "pallets-eco/wtforms",
+  "pyinstaller/pyinstaller",
+  "pyqtgraph/pyqtgraph",
+  "pyvista/pyvista",
+  "saltstack/salt"
+ ],
+ "default_rows": 49,
+ "finished_at": "2026-11-05T20:58:49Z",
+ "gate": {
+  "G1_projects_read_ge_90pct": true,
+  "G2_markers_ge_20000": true
+ },
+ "gate_held": true,
+ "log": [
+  "boto/boto3: 194 files, 263 markers",
+  "enthought/traits: 403 files, 384 markers",
+  "saltstack/salt: 4289 files, 14916 markers",
+  "jupyter/jupyter_client: 77 files, 165 markers",
+  "ipython/traitlets: 70 files, 166 markers",
+  "jupyter/nbconvert: 164 files, 159 markers",
+  "jupyter/nbformat: 78 files, 58 markers",
+  "ipython/ipykernel: 88 files, 48 markers",
+  "pyqtgraph/pyqtgraph: 585 files, 353 markers",
+  "pypa/virtualenv: 212 files, 168 markers",
+  "pypa/twine: 51 files, 45 markers",
+  "pypa/build: 91 files, 202 markers",
+  "pypa/wheel: 44 files, 6 markers",
+  "sqlalchemy/mako: 85 files, 250 markers",
+  "zopefoundation/zope.interface: 78 files, 385 markers",
+  "python-jsonschema/jsonschema: 53 files, 132 markers",
+  "PyCQA/flake8: 197 files, 200 markers",
+  "PyCQA/pycodestyle: 68 files, 57 markers",
+  "PyCQA/bandit: 266 files, 363 markers",
+  "pyinstaller/pyinstaller: 1214 files, 203 markers",
+  "kivy/kivy: 681 files, 1868 markers",
+  "pygame/pygame: 408 files, 1632 markers",
+  "geopandas/geopandas: 123 files, 281 markers",
+  "pyproj4/pyproj: 111 files, 490 markers",
+  "rasterio/rasterio: 314 files, 352 markers",
+  "pvlib/pvlib-python: 323 files, 360 markers",
+  "sunpy/sunpy: 694 files, 486 markers",
+  "scrapy/scrapy: 628 files, 1432 markers",
+  "Supervisor/supervisor: 93 files, 140 markers",
+  "fabric/fabric: 83 files, 231 markers",
+  "pyinvoke/invoke: 168 files, 320 markers",
+  "django/channels: 125 files, 199 markers",
+  "python-telegram-bot/python-telegram-bot: 932 files, 3562 markers",
+  "Rapptz/discord.py: 224 files, 3399 markers",
+  "aio-libs/yarl: 146 files, 267 markers",
+  "aio-libs/multidict: 88 files, 121 markers",
+  "MagicStack/asyncpg: 83 files, 168 markers",
+  "coleifer/peewee: 134 files, 2063 markers",
+  "pallets-eco/flask-sqlalchemy: 61 files, 233 markers",
+  "pallets-eco/wtforms: 103 files, 224 markers",
+  "HypothesisWorks/hypothesis: 572 files, 440 markers",
+  "nedbat/coveragepy: 236 files, 133 markers",
+  "pytest-dev/pluggy: 50 files, 67 markers",
+  "pytest-dev/pytest-xdist: 59 files, 32 markers",
+  "joblib/joblib: 112 files, 59 markers",
+  "dask/distributed: 381 files, 402 markers",
+  "pyvista/pyvista: 938 files, 1832 markers",
+  "mne-tools/mne-python: 1237 files, 2772 markers",
+  "nipy/nibabel: 326 files, 194 markers",
+  "biopython/biopython: 742 files, 1446 markers",
+  "Unidata/MetPy: 228 files, 284 markers",
+  "numpy/numpydoc: 39 files, 60 markers",
+  "arviz-devs/arviz: 10 files, 5 markers",
+  "lmfit/lmfit-py: 128 files, 230 markers",
+  "mpmath/mpmath: 193 files, 776 markers",
+  "zeromq/pyzmq: 192 files, 111 markers",
+  "gevent/gevent: 544 files, 681 markers",
+  "python-websockets/websockets: 262 files, 921 markers",
+  "Kozea/WeasyPrint: 164 files, 81 markers",
+  "zarr-developers/zarr-python: 555 files, 4 markers"
+ ],
+ "markers_by_family": {
+  "admonition": 5739,
+  "autodoc": 4965,
+  "code": 16937,
+  "structure": 5501,
+  "version": 13739
+ },
+ "markers_total": 46881,
+ "nonversion_rows": 79,
+ "per_project": [
+  {
+   "commit": "6b6c175381a988c058ae6e36fdfeda7fac87520f",
+   "counts": {
+    "admonition/OK": 47,
+    "autodoc/OK": 14,
+    "code/OK": 179,
+    "structure/OK": 23
+   },
+   "files": 194,
+   "markers": 263,
+   "ok": true,
+   "project": "boto/boto3"
+  },
+  {
+   "commit": "2d13352b2e8879f580eb83a76e686c5f8c3c084f",
+   "counts": {
+    "admonition/OK": 16,
+    "autodoc/OK": 277,
+    "code/OK": 11,
+    "structure/OK": 70,
+    "version/OK": 10
+   },
+   "files": 403,
+   "markers": 384,
+   "ok": true,
+   "project": "enthought/traits"
+  },
+  {
+   "commit": "4840c2beedf97185289ca7bfe0b98582f8119a07",
+   "counts": {
+    "admonition/DROPPED": 19,
+    "admonition/DROPPED_cl": 2,
+    "admonition/OK": 1799,
+    "admonition/OK_lit": 2,
+    "autodoc/OK": 651,
+    "code/DROPPED": 13,
+    "code/OK": 8727,
+    "code/OK_lit": 11,
+    "structure/OK": 213,
+    "structure/OK_lit": 1,
+    "version/DROPPED": 2,
+    "version/OK": 3469,
+    "version/OK_lit": 6,
+    "version/RAW_TEXT": 1
+   },
+   "files": 4289,
+   "markers": 14916,
+   "ok": true,
+   "project": "saltstack/salt"
+  },
+  {
+   "commit": "978361b3785dcd9cba6c733f4555e833e88fc0df",
+   "counts": {
+    "admonition/OK": 33,
+    "autodoc/OK": 38,
+    "code/OK": 22,
+    "structure/OK": 17,
+    "version/DROPPED": 2,
+    "version/OK": 53
+   },
+   "files": 77,
+   "markers": 165,
+   "ok": true,
+   "project": "jupyter/jupyter_client"
+  },
+  {
+   "commit": "a576f243ec6c7be0ac3d00b3ba294408a84b068e",
+   "counts": {
+    "admonition/OK": 11,
+    "admonition/OK_lit": 1,
+    "autodoc/OK": 54,
+    "code/OK": 52,
+    "structure/OK": 18,
+    "version/OK": 30
+   },
+   "files": 70,
+   "markers": 166,
+   "ok": true,
+   "project": "ipython/traitlets"
+  },
+  {
+   "commit": "e681152f214b65387f875aad96a4726994533a0b",
+   "counts": {
+    "admonition/OK": 20,
+    "autodoc/OK": 86,
+    "code/OK": 35,
+    "structure/OK": 15,
+    "version/OK": 3
+   },
+   "files": 164,
+   "markers": 159,
+   "ok": true,
+   "project": "jupyter/nbconvert"
+  },
+  {
+   "commit": "cfb73afdd2a7f358953f2a34f747fd0d0e9d6288",
+   "counts": {
+    "admonition/OK": 4,
+    "autodoc/OK": 28,
+    "code/OK": 11,
+    "structure/OK": 6,
+    "version/OK": 9
+   },
+   "files": 78,
+   "markers": 58,
+   "ok": true,
+   "project": "jupyter/nbformat"
+  },
+  {
+   "commit": "f87d0e09863101be7a961d53f29549397ff62c72",
+   "counts": {
+    "autodoc/OK": 35,
+    "structure/OK": 3,
+    "version/OK": 10
+   },
+   "files": 88,
+   "markers": 48,
+   "ok": true,
+   "project": "ipython/ipykernel"
+  },
+  {
+   "commit": "ae5c86cd9b5aa0435c94d7ee6bfb46459688197e",
+   "counts": {
+    "admonition/OK": 7,
+    "autodoc/OK": 283,
+    "code/DROPPED": 1,
+    "code/OK": 37,
+    "structure/OK": 24,
+    "version/OK": 1
+   },
+   "files": 585,
+   "markers": 353,
+   "ok": true,
+   "project": "pyqtgraph/pyqtgraph"
+  },
+  {
+   "commit": "e271072462ea01904e9d8afd18c48cb7ab4d968b",
+   "counts": {
+    "admonition/OK": 11,
+    "autodoc/OK": 10,
+    "code/OK": 116,
+    "structure/OK": 31
+   },
+   "files": 212,
+   "markers": 168,
+   "ok": true,
+   "project": "pypa/virtualenv"
+  },
+  {
+   "commit": "f536ac5d0c77a24a997854328e64644f576b4992",
+   "counts": {
+    "admonition/OK": 3,
+    "autodoc/OK": 12,
+    "code/OK": 26,
+    "structure/OK": 4
+   },
+   "files": 51,
+   "markers": 45,
+   "ok": true,
+   "project": "pypa/twine"
+  },
+  {
+   "commit": "3b3810a1acbdbb37605afe904dccb286ee636bd7",
+   "counts": {
+    "admonition/OK": 12,
+    "autodoc/OK": 4,
+    "code/OK": 178,
+    "structure/OK": 8
+   },
+   "files": 91,
+   "markers": 202,
+   "ok": true,
+   "project": "pypa/build"
+  },
+  {
+   "commit": "bfb01fb441d579c289556c305280e08168e23c5f",
+   "counts": {
+    "admonition/OK": 1,
+    "code/OK": 2,
+    "structure/OK": 3
+   },
+   "files": 44,
+   "markers": 6,
+   "ok": true,
+   "project": "pypa/wheel"
+  },
+  {
+   "commit": "14889bc0feacd12102ee61f0769677be2fddbc1b",
+   "counts": {
+    "admonition/OK": 12,
+    "autodoc/OK": 19,
+    "code/OK": 195,
+    "structure/OK": 1,
+    "version/OK": 23
+   },
+   "files": 85,
+   "markers": 250,
+   "ok": true,
+   "project": "sqlalchemy/mako"
+  },
+  {
+   "commit": "c220969089921d58d24df3eb3e1588f75bd6c12a",
+   "counts": {
+    "admonition/OK": 41,
+    "autodoc/OK": 56,
+    "code/OK": 224,
+    "structure/OK": 21,
+    "version/OK": 43
+   },
+   "files": 78,
+   "markers": 385,
+   "ok": true,
+   "project": "zopefoundation/zope.interface"
+  },
+  {
+   "commit": "0394d2b15be96ecb5b7ddd08267b8f277c4d4240",
+   "counts": {
+    "admonition/OK": 18,
+    "autodoc/OK": 28,
+    "code/OK": 51,
+    "structure/OK": 28,
+    "version/OK": 7
+   },
+   "files": 53,
+   "markers": 132,
+   "ok": true,
+   "project": "python-jsonschema/jsonschema"
+  },
+  {
+   "commit": "1a50f8923b5aec2bef0f3e5ee84cf78ffc821fd5",
+   "counts": {
+    "admonition/OK": 32,
+    "autodoc/OK": 38,
+    "code/OK": 97,
+    "structure/OK": 25,
+    "version/OK": 8
+   },
+   "files": 197,
+   "markers": 200,
+   "ok": true,
+   "project": "PyCQA/flake8"
+  },
+  {
+   "commit": "b157cc3b7e73870a87d59151001b9687395c73a2",
+   "counts": {
+    "admonition/OK": 2,
+    "autodoc/OK": 43,
+    "structure/OK": 12
+   },
+   "files": 68,
+   "markers": 57,
+   "ok": true,
+   "project": "PyCQA/pycodestyle"
+  },
+  {
+   "commit": "48ef27bd1bbc32f4e585c92310f7a574e87f6b04",
+   "counts": {
+    "admonition/OK": 43,
+    "autodoc/OK": 53,
+    "code/DROPPED": 1,
+    "code/OK": 114,
+    "structure/OK": 38,
+    "structure/OK_lit": 1,
+    "version/OK": 113
+   },
+   "files": 266,
+   "markers": 363,
+   "ok": true,
+   "project": "PyCQA/bandit"
+  },
+  {
+   "commit": "14adba9ef4060f561850e014314f45b39700aa3d",
+   "counts": {
+    "admonition/DROPPED": 2,
+    "admonition/OK": 60,
+    "autodoc/OK": 35,
+    "code/DROPPED": 2,
+    "code/OK": 38,
+    "structure/OK": 46,
+    "version/OK": 20
+   },
+   "files": 1214,
+   "markers": 203,
+   "ok": true,
+   "project": "pyinstaller/pyinstaller"
+  },
+  {
+   "commit": "c703f5fb42c4bd28cb6652e3a82de989e3c3f0f7",
+   "counts": {
+    "admonition/DROPPED": 5,
+    "admonition/DROPPED_cl": 1,
+    "admonition/OK": 395,
+    "admonition/OK_lit": 2,
+    "admonition/RAW_TEXT": 2,
+    "autodoc/OK": 1,
+    "code/OK": 214,
+    "structure/OK": 167,
+    "version/DROPPED": 4,
+    "version/OK": 1077
+   },
+   "files": 681,
+   "markers": 1868,
+   "ok": true,
+   "project": "kivy/kivy"
+  },
+  {
+   "commit": "85fda3f719d437cf27106afae8c890e6b88ba5f5",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 89,
+    "code/OK": 52,
+    "structure/OK": 1163,
+    "version/DROPPED": 5,
+    "version/OK": 322
+   },
+   "files": 408,
+   "markers": 1632,
+   "ok": true,
+   "project": "pygame/pygame"
+  },
+  {
+   "commit": "ead9a4fe380b3e5cb189fca03328af4e1db5fa33",
+   "counts": {
+    "admonition/OK": 19,
+    "autodoc/OK": 38,
+    "code/OK": 49,
+    "structure/OK": 139,
+    "version/OK": 36
+   },
+   "files": 123,
+   "markers": 281,
+   "ok": true,
+   "project": "geopandas/geopandas"
+  },
+  {
+   "commit": "406aa51754ee3799250d9fb800bd0b8df760179c",
+   "counts": {
+    "admonition/OK": 59,
+    "autodoc/OK": 96,
+    "code/OK": 73,
+    "structure/OK": 4,
+    "version/OK": 258
+   },
+   "files": 111,
+   "markers": 490,
+   "ok": true,
+   "project": "pyproj4/pyproj"
+  },
+  {
+   "commit": "124e23f4060678460f39a0d838ac8c83b6fe2fe7",
+   "counts": {
+    "admonition/OK": 18,
+    "autodoc/OK": 28,
+    "code/OK": 264,
+    "structure/OK": 35,
+    "version/OK": 7
+   },
+   "files": 314,
+   "markers": 352,
+   "ok": true,
+   "project": "rasterio/rasterio"
+  },
+  {
+   "commit": "c5de586d73bbb8875a4e87468894e7b34871a575",
+   "counts": {
+    "admonition/OK": 41,
+    "autodoc/OK": 78,
+    "code/OK": 95,
+    "code/OK_lit": 1,
+    "structure/OK": 116,
+    "structure/OK_lit": 1,
+    "version/OK": 27,
+    "version/OK_lit": 1
+   },
+   "files": 323,
+   "markers": 360,
+   "ok": true,
+   "project": "pvlib/pvlib-python"
+  },
+  {
+   "commit": "1d8dde1c9de259bb7afce46b703eaeb8fc54a0d5",
+   "counts": {
+    "admonition/OK": 74,
+    "autodoc/OK": 1,
+    "code/OK": 355,
+    "code/OK_lit": 1,
+    "structure/OK": 54,
+    "version/OK": 1
+   },
+   "files": 694,
+   "markers": 486,
+   "ok": true,
+   "project": "sunpy/sunpy"
+  },
+  {
+   "commit": "36a7e21239f4be2941ce2059400d79702d5d7986",
+   "counts": {
+    "admonition/DROPPED_cl": 1,
+    "admonition/OK": 211,
+    "autodoc/OK": 224,
+    "code/OK": 586,
+    "structure/OK": 207,
+    "version/OK": 203
+   },
+   "files": 628,
+   "markers": 1432,
+   "ok": true,
+   "project": "scrapy/scrapy"
+  },
+  {
+   "commit": "abc60468ea4b78c446cf3a194f6fccb83d90f670",
+   "counts": {
+    "admonition/OK": 33,
+    "autodoc/OK": 42,
+    "code/OK": 60,
+    "structure/OK": 5
+   },
+   "files": 93,
+   "markers": 140,
+   "ok": true,
+   "project": "Supervisor/supervisor"
+  },
+  {
+   "commit": "ded51893f02c33d2bc7c157624c44a039a952037",
+   "counts": {
+    "admonition/OK": 80,
+    "autodoc/OK": 13,
+    "code/OK": 31,
+    "structure/OK": 24,
+    "version/OK": 83
+   },
+   "files": 83,
+   "markers": 231,
+   "ok": true,
+   "project": "fabric/fabric"
+  },
+  {
+   "commit": "6a71e680c535ba6520e935c497099fbca011d03c",
+   "counts": {
+    "admonition/OK": 99,
+    "autodoc/OK": 18,
+    "code/OK": 6,
+    "structure/OK": 8,
+    "version/OK": 189
+   },
+   "files": 168,
+   "markers": 320,
+   "ok": true,
+   "project": "pyinvoke/invoke"
+  },
+  {
+   "commit": "531894e5b2a825168e16fd82f1766f748f71faf4",
+   "counts": {
+    "admonition/OK": 32,
+    "code/OK": 154,
+    "structure/OK": 13
+   },
+   "files": 125,
+   "markers": 199,
+   "ok": true,
+   "project": "django/channels"
+  },
+  {
+   "commit": "8dec234225145f8ec0cc8fd97d42208a32d8f0e6",
+   "counts": {
+    "admonition/OK": 249,
+    "autodoc/OK": 365,
+    "code/OK": 93,
+    "structure/OK": 155,
+    "version/DROPPED": 5,
+    "version/OK": 2695
+   },
+   "files": 932,
+   "markers": 3562,
+   "ok": true,
+   "project": "python-telegram-bot/python-telegram-bot"
+  },
+  {
+   "commit": "65232c38702be5844cf2ce865a4777eb1928b5d0",
+   "counts": {
+    "admonition/OK": 276,
+    "autodoc/OK": 491,
+    "code/OK": 229,
+    "structure/OK": 717,
+    "version/DROPPED": 7,
+    "version/OK": 1679
+   },
+   "files": 224,
+   "markers": 3399,
+   "ok": true,
+   "project": "Rapptz/discord.py"
+  },
+  {
+   "commit": "faf6cf61ac991cb0b435725642550b985358d25b",
+   "counts": {
+    "admonition/OK": 14,
+    "code/OK": 123,
+    "structure/OK": 80,
+    "version/OK": 50
+   },
+   "files": 146,
+   "markers": 267,
+   "ok": true,
+   "project": "aio-libs/yarl"
+  },
+  {
+   "commit": "e88dea2ceecfdf1c87851016f7b65f81cb76d3d9",
+   "counts": {
+    "admonition/OK": 10,
+    "code/OK": 25,
+    "structure/OK": 65,
+    "version/OK": 21
+   },
+   "files": 88,
+   "markers": 121,
+   "ok": true,
+   "project": "aio-libs/multidict"
+  },
+  {
+   "commit": "13b01910da3fe01b8241c31cc86eccb1301a2d39",
+   "counts": {
+    "admonition/OK": 13,
+    "autodoc/OK": 9,
+    "code/OK": 47,
+    "structure/OK": 13,
+    "version/OK": 86
+   },
+   "files": 83,
+   "markers": 168,
+   "ok": true,
+   "project": "MagicStack/asyncpg"
+  },
+  {
+   "commit": "0fb639792b9f1f830f539ae3e5ec7ce12f2b11a6",
+   "counts": {
+    "admonition/OK": 134,
+    "code/OK": 1058,
+    "structure/OK": 871
+   },
+   "files": 134,
+   "markers": 2063,
+   "ok": true,
+   "project": "coleifer/peewee"
+  },
+  {
+   "commit": "80ac6ef26bd12a6b5472a494d541a7d2442a38a4",
+   "counts": {
+    "admonition/OK": 8,
+    "autodoc/OK": 24,
+    "code/OK": 81,
+    "structure/OK": 23,
+    "version/OK": 97
+   },
+   "files": 61,
+   "markers": 233,
+   "ok": true,
+   "project": "pallets-eco/flask-sqlalchemy"
+  },
+  {
+   "commit": "0b128269fbc7d6fabbb7e6fcc9f672d683229bfc",
+   "counts": {
+    "admonition/OK": 4,
+    "autodoc/OK": 139,
+    "code/DROPPED": 1,
+    "code/OK": 31,
+    "structure/OK": 46,
+    "version/OK": 3
+   },
+   "files": 103,
+   "markers": 224,
+   "ok": true,
+   "project": "pallets-eco/wtforms"
+  },
+  {
+   "commit": "535f94db57d2248d4c0f799f319563c5c7fbbdbb",
+   "counts": {
+    "admonition/OK": 83,
+    "autodoc/OK": 139,
+    "code/OK": 203,
+    "structure/OK": 14,
+    "structure/OK_lit": 1
+   },
+   "files": 572,
+   "markers": 440,
+   "ok": true,
+   "project": "HypothesisWorks/hypothesis"
+  },
+  {
+   "commit": "5f81de1de0637da3f46f0792048952f94e051ca6",
+   "counts": {
+    "admonition/OK": 10,
+    "autodoc/OK": 11,
+    "code/OK": 35,
+    "structure/OK": 13,
+    "version/OK": 64
+   },
+   "files": 236,
+   "markers": 133,
+   "ok": true,
+   "project": "nedbat/coveragepy"
+  },
+  {
+   "commit": "30b8ae208f5955125f2a2edcb038c03893774b49",
+   "counts": {
+    "admonition/OK": 11,
+    "autodoc/OK": 11,
+    "code/OK": 33,
+    "structure/OK": 5,
+    "version/OK": 7
+   },
+   "files": 50,
+   "markers": 67,
+   "ok": true,
+   "project": "pytest-dev/pluggy"
+  },
+  {
+   "commit": "eb73050a148896cc4fd4962cf92d7ec564e462b9",
+   "counts": {
+    "admonition/OK": 4,
+    "autodoc/OK": 4,
+    "code/OK": 14,
+    "structure/OK": 7,
+    "version/OK": 3
+   },
+   "files": 59,
+   "markers": 32,
+   "ok": true,
+   "project": "pytest-dev/pytest-xdist"
+  },
+  {
+   "commit": "436cada570b9e1830a9725245849bdcd6baa1e12",
+   "counts": {
+    "admonition/OK": 12,
+    "autodoc/OK": 15,
+    "code/OK": 10,
+    "structure/OK": 18,
+    "version/OK": 4
+   },
+   "files": 112,
+   "markers": 59,
+   "ok": true,
+   "project": "joblib/joblib"
+  },
+  {
+   "commit": "dc182bda54af488d029f2c40db0893d5f48e69d5",
+   "counts": {
+    "admonition/DROPPED": 2,
+    "admonition/DROPPED_cl": 1,
+    "admonition/OK": 71,
+    "autodoc/OK": 107,
+    "code/OK": 174,
+    "structure/OK": 47
+   },
+   "files": 381,
+   "markers": 402,
+   "ok": true,
+   "project": "dask/distributed"
+  },
+  {
+   "commit": "b644f3f6fe024085e5f826c2e590f7cf5e3aadce",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 613,
+    "admonition/OK_lit": 1,
+    "autodoc/OK": 153,
+    "autodoc/OK_lit": 1,
+    "code/OK": 172,
+    "structure/OK": 163,
+    "version/DROPPED": 1,
+    "version/OK": 724,
+    "version/OK_lit": 2,
+    "version/RAW_TEXT": 1
+   },
+   "files": 938,
+   "markers": 1832,
+   "ok": true,
+   "project": "pyvista/pyvista"
+  },
+  {
+   "commit": "b4f1de0ac024c04283689a473e99539af9b3689a",
+   "counts": {
+    "admonition/DROPPED_cl": 23,
+    "admonition/OK": 466,
+    "autodoc/OK": 92,
+    "code/OK": 190,
+    "structure/OK": 220,
+    "version/DROPPED": 2,
+    "version/OK": 1779
+   },
+   "files": 1237,
+   "markers": 2772,
+   "ok": true,
+   "project": "mne-tools/mne-python"
+  },
+  {
+   "commit": "fdacbf05c15f06125a481c3345a5de55a32f9ba2",
+   "counts": {
+    "admonition/DROPPED_cl": 2,
+    "admonition/OK": 26,
+    "autodoc/OK": 9,
+    "code/OK": 71,
+    "structure/OK": 86
+   },
+   "files": 326,
+   "markers": 194,
+   "ok": true,
+   "project": "nipy/nibabel"
+  },
+  {
+   "commit": "49fefbc675e08f3ab6741896d08397952ce4dd9c",
+   "counts": {
+    "admonition/OK": 3,
+    "code/OK": 1393,
+    "code/OK_lit": 2,
+    "structure/OK": 48
+   },
+   "files": 742,
+   "markers": 1446,
+   "ok": true,
+   "project": "biopython/biopython"
+  },
+  {
+   "commit": "a782ff8e0e9a71a84c51791f841c1b065e755381",
+   "counts": {
+    "autodoc/OK": 29,
+    "code/OK": 145,
+    "structure/OK": 37,
+    "version/OK": 73
+   },
+   "files": 228,
+   "markers": 284,
+   "ok": true,
+   "project": "Unidata/MetPy"
+  },
+  {
+   "commit": "c3a408edf3581ddc05e04761af93d37500b9b3bc",
+   "counts": {
+    "admonition/OK": 6,
+    "admonition/OK_lit": 2,
+    "autodoc/OK": 9,
+    "code/OK": 15,
+    "code/OK_lit": 2,
+    "structure/OK": 15,
+    "structure/OK_lit": 1,
+    "version/OK": 9,
+    "version/OK_lit": 1
+   },
+   "files": 39,
+   "markers": 60,
+   "ok": true,
+   "project": "numpy/numpydoc"
+  },
+  {
+   "commit": "f7aa5e5a0403fecbc561b50230ba4acc744995fc",
+   "counts": {
+    "admonition/OK": 4,
+    "structure/OK": 1
+   },
+   "files": 10,
+   "markers": 5,
+   "ok": true,
+   "project": "arviz-devs/arviz"
+  },
+  {
+   "commit": "d92d54543764e5ba4006efb13894381d6a8b5174",
+   "counts": {
+    "admonition/OK": 3,
+    "autodoc/OK": 90,
+    "code/OK": 47,
+    "structure/OK": 68,
+    "version/OK": 22
+   },
+   "files": 128,
+   "markers": 230,
+   "ok": true,
+   "project": "lmfit/lmfit-py"
+  },
+  {
+   "commit": "758e736b9ebacb730febd34940372db6efaedb92",
+   "counts": {
+    "admonition/DROPPED": 1,
+    "admonition/OK": 13,
+    "autodoc/OK": 356,
+    "code/OK": 351,
+    "structure/OK": 55
+   },
+   "files": 193,
+   "markers": 776,
+   "ok": true,
+   "project": "mpmath/mpmath"
+  },
+  {
+   "commit": "1043d5b115521f8a5e4078b9ecf3a9e194c8dab1",
+   "counts": {
+    "admonition/OK": 7,
+    "code/OK": 1,
+    "version/DROPPED": 4,
+    "version/OK": 99
+   },
+   "files": 192,
+   "markers": 111,
+   "ok": true,
+   "project": "zeromq/pyzmq"
+  },
+  {
+   "commit": "08f09eda118b6ee050f93fe645711f5d7051c2ed",
+   "counts": {
+    "admonition/OK": 199,
+    "autodoc/OK": 92,
+    "code/OK": 21,
+    "structure/OK": 91,
+    "version/DROPPED": 2,
+    "version/OK": 272,
+    "version/OK_lit": 4
+   },
+   "files": 544,
+   "markers": 681,
+   "ok": true,
+   "project": "gevent/gevent"
+  },
+  {
+   "commit": "769000771a9bf30e785ca0ef07c73e3ea235e70d",
+   "counts": {
+    "admonition/OK": 105,
+    "autodoc/OK": 502,
+    "code/OK": 231,
+    "structure/OK": 83
+   },
+   "files": 262,
+   "markers": 921,
+   "ok": true,
+   "project": "python-websockets/websockets"
+  },
+  {
+   "commit": "1aa7e40b5003b7d839d7e838d127ba67d850e85e",
+   "counts": {
+    "admonition/OK": 2,
+    "autodoc/OK": 14,
+    "code/OK": 51,
+    "structure/OK": 14
+   },
+   "files": 164,
+   "markers": 81,
+   "ok": true,
+   "project": "Kozea/WeasyPrint"
+  },
+  {
+   "commit": "4a804a7f5af98596f90cdef5ab05a4b38a403944",
+   "counts": {
+    "code/OK": 4
+   },
+   "files": 555,
+   "markers": 4,
+   "ok": true,
+   "project": "zarr-developers/zarr-python"
+  }
+ ],
+ "projects_listed": 60,
+ "projects_read": 60,
+ "reported_by_family_class": {
+  "admonition/DROPPED": 59,
+  "admonition/RAW_TEXT": 2,
+  "autodoc/DROPPED": 0,
+  "autodoc/RAW_TEXT": 0,
+  "code/DROPPED": 18,
+  "code/RAW_TEXT": 0,
+  "structure/DROPPED": 0,
+  "structure/RAW_TEXT": 0,
+  "version/DROPPED": 34,
+  "version/RAW_TEXT": 1
+ },
+ "review4_comment_size": 20,
+ "review4_size": 40,
+ "seconds": 106.6,
+ "sphinx_lint_overlap_default": 7
+}

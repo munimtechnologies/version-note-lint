@@ -34,8 +34,15 @@ branch). Placeholders such as "next" (CPython), "A.B" (docs about docs) or
 "{{ start_version }}" (templated docstrings) are counted but not reported.
 Notes inside literal blocks and code fences are skipped.
 
+With --all-directives it also reports DROPPED and RAW_TEXT markers of other common
+directives (note, warning, seealso, code-block, testcode, math, highlight,
+autoclass, attribute, image, ...), using marker_scan. Markers that look like a
+deliberate comment (".. note: words on the same line", or a line inside a
+commented-out block) are skipped unless --include-comment-like is given.
+
 Usage:
-  version-note-lint [--branch-version X.Y] [--ignore CLS[,CLS]] [--json] PATH [PATH ...]
+  version-note-lint [--all-directives [--include-comment-like]] [--branch-version X.Y]
+                    [--ignore CLS[,CLS]] [--json] PATH [PATH ...]
 Exit status 1 when anything is reported, else 0.
 """
 import argparse
@@ -44,7 +51,9 @@ import os
 import re
 import sys
 
-__version__ = "0.1.1"
+import marker_scan
+
+__version__ = "0.2.0"
 
 DIRECTIVES = (
     "deprecated-removed", "soft-deprecated", "versionadded", "versionchanged",
@@ -234,6 +243,23 @@ def findings(notes, include_literal=False, ignore=()):
             (include_literal or not n["in_literal"])]
 
 
+def other_directive_findings(text, path, include_comment_like=False, ignore=()):
+    """DROPPED / RAW_TEXT markers of non-version directives (marker_scan)."""
+    out = []
+    for r in marker_scan.scan_text(text, path):
+        if r["family"] == "version" or r["cls"] not in ("DROPPED", "RAW_TEXT"):
+            continue
+        if r["in_literal"] or r["cls"] in ignore:
+            continue
+        if r["comment_like"] and not include_comment_like:
+            continue
+        out.append({"path": path, "line": r["line"], "directive": r["directive"],
+                    "family": r["family"], "arg": "", "cls": r["cls"],
+                    "in_literal": False, "comment_like": r["comment_like"],
+                    "text": r["text"]})
+    return out
+
+
 def iter_files(paths):
     for p in paths:
         if os.path.isdir(p):
@@ -249,6 +275,15 @@ def iter_files(paths):
 
 def describe(n, branch_version=None):
     c = n["cls"]
+    fam = n.get("family", "version")
+    if fam != "version":
+        if c == "DROPPED":
+            return ("malformed '.. %s' marker; docutils reads it, and its indented body, "
+                    "as a comment, so readers never see it (write '.. %s::')"
+                    % (n["directive"], n["directive"]))
+        if c == "RAW_TEXT":
+            return ("no space after '..'; this is not a directive and renders as plain "
+                    "text (write '.. %s::')" % n["directive"])
     if c == "MISSING":
         return "version note has no version (Sphinx needs it as the first argument)"
     if c == "BODY_AS_VERSION":
@@ -278,6 +313,12 @@ def main(argv=None):
                     help="X.Y of a maintenance branch; report notes naming a later release")
     ap.add_argument("--ignore", default="",
                     help="comma-separated classes not to report, e.g. PUNCT")
+    ap.add_argument("--all-directives", action="store_true",
+                    help="also report malformed markers of other directives (note, "
+                         "warning, code-block, math, autoclass, ...)")
+    ap.add_argument("--include-comment-like", action="store_true",
+                    help="with --all-directives, also report markers that look like "
+                         "deliberate comments ('.. note: some words')")
     ap.add_argument("--json", action="store_true", help="print findings as JSON")
     ap.add_argument("--version", action="version", version=__version__)
     a = ap.parse_args(argv)
@@ -294,7 +335,12 @@ def main(argv=None):
         except OSError as e:
             print("%s: cannot read: %s" % (path, e), file=sys.stderr)
             continue
-        out.extend(findings(scan_text(text, path, bv), ignore=ignore))
+        found = findings(scan_text(text, path, bv), ignore=ignore)
+        if a.all_directives:
+            found.extend(other_directive_findings(text, path, a.include_comment_like,
+                                                  ignore))
+            found.sort(key=lambda n: n["line"])
+        out.extend(found)
     if a.json:
         print(json.dumps(out, indent=1))
     else:

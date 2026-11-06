@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "version-note-lint"
-version = "0.1.1"
-description = "Check Sphinx versionadded/versionchanged/deprecated notes: silently dropped markers, missing or non-version arguments, versions later than the branch."
+version = "0.2.0"
+description = "Find Sphinx/reST directives that silently vanish: malformed version notes, notes, warnings, code blocks and more; plus version arguments that are missing, wrong or later than the branch."
 readme = "README.md"
 license = "Apache-2.0"
 requires-python = ">=3.9"
 authors = [{ name = "MV2, Munim, Inc.", email = "mv2@munimtech.com" }]
-keywords = ["sphinx", "documentation", "lint", "versionadded", "restructuredtext"]
+keywords = ["sphinx", "documentation", "lint", "versionadded", "restructuredtext", "docutils"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Topic :: Documentation :: Sphinx",
@@ -24,4 +24,4 @@ Source = "https://github.com/munimtechnologies/version-note-lint"
 version-note-lint = "version_note_lint:main"
 
 [tool.setuptools]
-py-modules = ["version_note_lint"]
+py-modules = ["version_note_lint", "marker_scan"]

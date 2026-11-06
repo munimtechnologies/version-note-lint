@@ -4,3 +4,9 @@
   entry: version-note-lint
   language: python
   types_or: [rst, python, markdown, text]
+- id: directive-lint
+  name: version-note-lint --all-directives
+  description: Also find malformed markers of other directives (note, warning, code-block, math, ...) that docutils silently drops.
+  entry: version-note-lint --all-directives
+  language: python
+  types_or: [rst, python, markdown, text]
